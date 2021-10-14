@@ -1,0 +1,35 @@
+name: Build cpac_templates Docker image
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  Ubuntu:
+    name: Build Docker image for C-PAC
+    strategy:
+      matrix:
+        Dockerfile: 
+        - Ubuntu.bionic-non-free
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out C-PAC_templates
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Set image tag
+        run: echo DOCKER_TAG=$(echo "ghcr.io/${{ github.repository }}:latest" | tr '[:upper:]' '[:lower:]') >> $GITHUB_ENV
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v2.7.0
+        with:
+          file: .github/Dockerfiles/cpac_templates.Dockerfile
+          push: true
+          tags: |
+            ${{ env.DOCKER_TAG }}
