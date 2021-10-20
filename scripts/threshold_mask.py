@@ -1,6 +1,7 @@
 """Script to take """
 import sys
 import nibabel as nib
+import numpy as np
 
 
 def threshold_mask(input_filename, threshold, output_filename):
@@ -18,12 +19,14 @@ def threshold_mask(input_filename, threshold, output_filename):
     """
     threshold = float(threshold)
     mask = nib.load(input_filename)
+    mask = nib.Nifti1Image(
+        (mask.get_fdata() > threshold).astype(int),
+        mask.affine,
+        mask.header
+    )
+    mask.set_data_dtype(np.int8)
     nib.save(
-        nib.Nifti1Image(
-          (mask.get_fdata() > threshold).astype(int),
-          mask.affine,
-          mask.header
-        ),
+        mask,
         output_filename
     )
 
