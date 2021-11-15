@@ -6,6 +6,7 @@ In addition to the templates provided by [Neuroparc](https://github.com/neurodat
 * Tables
   * [Human](#Table-Human)
   * [Macaque](#Table-Macaque)
+  * [Mouse](#Table-Mouse)
 
 ## Atlas Info Summary
 
@@ -32,3 +33,13 @@ In addition to the templates provided by [Neuroparc](https://github.com/neurodat
 | Atlas Name | # Regions | Symmetrical? | Hierarchical? | Labelled? | Generation Method | Average Vol/Region | Native coordinate space | Description | Reference Publication | Year of Origin | File Source/Download URL |
 |------------------------------|----------|----------|-----------|---------|--------------------------------------------------------------------------------------------------------------------------------------|--------------------|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|----------------|---------------------|
 | MacaqueYerkes19 |  |  |  |  |  |  |  |  |  |  |  |
+
+<a name="Table-Mouse"></a>
+
+### Mouse
+
+| Atlas Name | # Regions | Symmetrical? | Hierarchical? | Labelled? | Generation Method | Average Vol/Region | Native coordinate space | Description | Reference Publication | Year of Origin | File Source/Download URL |
+|------------------------------|----------|----------|-----------|---------|--------------------------------------------------------------------------------------------------------------------------------------|--------------------|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|----------------|---------------------|
+| CHD8 |  | No | No |  | drawn by hand on a BOLD EPI template of one study carried out some time ago at Istituto Italiano di Tecnologia |  |  |  | [doi:10.1038/s41467-021-26131-z](https://doi.org/10.1038/s41467-021-26131-z) | 2021 |  | 
+
+
