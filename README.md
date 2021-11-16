@@ -31,4 +31,4 @@ In addition to the templates provided by [Neuroparc](https://github.com/neurodat
 
 | Atlas Name | # Regions | Symmetrical? | Hierarchical? | Labelled? | Generation Method | Average Vol/Region | Native coordinate space | Description | Reference Publication | Year of Origin | File Source/Download URL |
 |------------------------------|----------|----------|-----------|---------|--------------------------------------------------------------------------------------------------------------------------------------|--------------------|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|----------------|---------------------|
-| MacaqueYerkes19 |  |  |  |  |  |  |  |  |  |  |  |
+| MacaqueYerkes19 |  |  |  |  |  |  |  |  |  | 2018 | https://github.com/Washington-University/NHPPipelines/tree/18db54ef/global/templates |
