@@ -33,4 +33,5 @@ In the package `ghcr.io/fcp-indi/c-pac_templates`, all templates are stored in a
 
 | Atlas Name | # Regions | Symmetrical? | Hierarchical? | Labelled? | Generation Method | Average Vol/Region | Native coordinate space | Description | Reference Publication | Year of Origin | File Source/Download URL |
 |------------------------------|----------|----------|-----------|---------|--------------------------------------------------------------------------------------------------------------------------------------|--------------------|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|----------------|---------------------|
-| MacaqueYerkes19 |  |  |  |  |  |  |  |  |  | 2018 | https://github.com/Washington-University/NHPPipelines/tree/18db54ef/global/templates |
+| J_Macaque_11mo_atlas_nACQ |  |  |  |  |  |  | 194x252x160 |  |  | 2020 | https://github.com/DCAN-Labs/dcan-macaque-pipeline/tree/master/global/templates |
+| MacaqueYerkes19 |  |  |  |  |  |  |  |  |  | 2020 | https://github.com/DCAN-Labs/dcan-macaque-pipeline/tree/master/global/templates |
