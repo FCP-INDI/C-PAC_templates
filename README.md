@@ -2,6 +2,8 @@ C-PAC Templates
 ===============
 In addition to the templates provided by [Neuroparc](https://github.com/neurodata/neuroparc), C-PAC includes the templates here. This repository is modeled after [Neuroparc v1.0](https://github.com/neurodata/neuroparc/tree/v1.0).
 
+In the package `ghcr.io/fcp-indi/c-pac_templates`, all templates are stored in a flat structure in the directory `/cpac_templates`.
+
 * [Atlas Spec](https://github.com/neurodata/neuroparc/blob/devel/atlases/Human/atlas_spec.md)
 * Tables
   * [Human](#Table-Human)
