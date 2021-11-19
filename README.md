@@ -2,6 +2,8 @@ C-PAC Templates
 ===============
 In addition to the templates provided by [Neuroparc](https://github.com/neurodata/neuroparc), C-PAC includes the templates here. This repository is modeled after [Neuroparc v1.0](https://github.com/neurodata/neuroparc/tree/v1.0).
 
+In the package `ghcr.io/fcp-indi/c-pac_templates`, all templates are stored in a flat structure in the directory `/cpac_templates`.
+
 * [Atlas Spec](https://github.com/neurodata/neuroparc/blob/devel/atlases/Human/atlas_spec.md)
 * Tables
   * [Human](#Table-Human)
@@ -33,7 +35,8 @@ In addition to the templates provided by [Neuroparc](https://github.com/neurodat
 
 | Atlas Name | # Regions | Symmetrical? | Hierarchical? | Labelled? | Generation Method | Average Vol/Region | Native coordinate space | Description | Reference Publication | Year of Origin | File Source/Download URL |
 |------------------------------|----------|----------|-----------|---------|--------------------------------------------------------------------------------------------------------------------------------------|--------------------|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|----------------|---------------------|
-| MacaqueYerkes19 |  |  |  |  |  |  |  |  |  |  |  |
+| J_Macaque_11mo_atlas_nACQ |  |  |  |  |  |  | 194x252x160 |  |  | 2020 | https://github.com/DCAN-Labs/dcan-macaque-pipeline/tree/master/global/templates |
+| MacaqueYerkes19 |  |  |  |  |  |  |  |  |  | 2020 | https://github.com/DCAN-Labs/dcan-macaque-pipeline/tree/master/global/templates |
 
 <a name="Table-Mouse"></a>
 
