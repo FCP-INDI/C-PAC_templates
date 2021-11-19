@@ -22,6 +22,7 @@ In addition to the templates provided by [Neuroparc](https://github.com/neurodat
 | HarvardOxford |  |  |  |  |  |  |  |  |  |  |  |
 | ROIs |  |  |  |  |  |  |  |  |  |  |  |
 | Smith | 10 |  |  |  |  |  |  | <blockquote>10 well-matched maps from […] 200-dimensional ICA, Resting-FMRI components […] as shown in PNAS paper</blockquote> | [doi:10.1073/pnas.0905267106](https://dx.doi.org/10.1073/pnas.0905267106) | 2009 | https://www.fmrib.ox.ac.uk/datasets/brainmap+rsns/ https://www.fmrib.ox.ac.uk/datasets/brainmap+rsns/PNAS_Smith09_rsn10.nii.gz |
+| Smith `desc-thresh3` | 10 |  |  |  | [`scripts/threshold_mask.py`](https://github.com/FCP-INDI/C-PAC_templates/blob/147e123/scripts/threshold_mask.py) |  |  | Smith (above) thresholded at Z = 3 as in [Fig 1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2722273/figure/F1/) | [doi:10.1073/pnas.0905267106](https://dx.doi.org/10.1073/pnas.0905267106) | 2009 |  |
 | Talairach–Tournoux |  |  |  |  |  |  |  |  |  |  |  |
 
 
