@@ -35,6 +35,9 @@ RUN groupadd -r c-pac && \
     mkdir -p /home/c-pac_user/ && \
     chown -R c-pac_user:c-pac /home/c-pac_user
 
+# Copying over surface files to /opt/dcan-tools
+COPY /surface_resources/standard_mesh_atlases/ /opt/dcan-tools/pipeline/global/templates/standard_mesh_atlases/
+
 # Move all templates into /cpac_templates
 COPY --from=GitHubPipelines /macaque_templates/* /cpac_templates/
 COPY --from=GitHubPipelines /atlases/label/human/* /cpac_templates/
