@@ -36,9 +36,9 @@ RUN groupadd -r c-pac && \
     chown -R c-pac_user:c-pac /home/c-pac_user
 
 # Copying over surface files to /opt/dcan-tools
-COPY /surface_resources/standard_mesh_atlases/ /opt/dcan-tools/pipeline/global/templates/standard_mesh_atlases/
-COPY /surface_resources/28224_Greyordinates /opt/dcan-tools/pipeline/global/templates/
-COPY /surface_resources/8617_Greyordinates /opt/dcan-tools/pipeline/global/templates/
+COPY surface_resources/standard_mesh_atlases/ /opt/dcan-tools/pipeline/global/templates/standard_mesh_atlases/
+COPY surface_resources/28224_Greyordinates /opt/dcan-tools/pipeline/global/templates/
+COPY surface_resources/8617_Greyordinates /opt/dcan-tools/pipeline/global/templates/
 
 # Move all templates into /cpac_templates
 COPY --from=GitHubPipelines /macaque_templates/* /cpac_templates/
