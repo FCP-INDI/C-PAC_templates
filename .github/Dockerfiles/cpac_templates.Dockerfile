@@ -37,8 +37,6 @@ RUN groupadd -r c-pac && \
 
 # Copying over surface files to /opt/dcan-tools
 COPY surface_resources/standard_mesh_atlases/ /opt/dcan-tools/pipeline/global/templates/standard_mesh_atlases/
-COPY surface_resources/28224_Greyordinates/ /opt/dcan-tools/pipeline/global/templates/28224_Greyordinates/
-COPY surface_resources/8617_Greyordinates/ /opt/dcan-tools/pipeline/global/templates/8617_Greyordinates/
 COPY surface_resources/Greyordinates/ /opt/dcan-tools/pipeline/global/templates/Greyordinates/
 
 # Move all templates into /cpac_templates
