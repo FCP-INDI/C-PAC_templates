@@ -51,9 +51,7 @@ In the package `ghcr.io/fcp-indi/c-pac_templates`, all templates are stored in a
 
 <a name="neuroparc"></a>
 # Neuroparc
-This repository contains *a subset* of the files from [:octocat:/neurodata/neuroparc@`v1.0`](https://github.com/neurodata/neuroparc).
-
-These files are packaged in [`ghcr.io/c-pac_templates/neuroparc`](https://github.com/orgs/FCP-INDI/packages/container/package/c-pac_templates%2Fneuroparc) and included in [`ghcr.io/c-pac_templates`](https://github.com/orgs/FCP-INDI/packages/container/package/c-pac_templates) at `/ndmg_atlases`.
+This repository packages *a subset* of the files from [:octocat:/neurodata/neuroparc@`v1.0`](https://github.com/neurodata/neuroparc), copyright 2019 Neurodata Group, licensed under [the Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0). These files are packaged in [`ghcr.io/c-pac_templates/neuroparc`](https://github.com/orgs/FCP-INDI/packages/container/package/c-pac_templates%2Fneuroparc) and included in [`ghcr.io/c-pac_templates`](https://github.com/orgs/FCP-INDI/packages/container/package/c-pac_templates) at `/ndmg_atlases`.
 
 This section of this README is mostly excerpted directly from [:octocat:/neurodata/neuroparc@`v1.0`/README.md](https://github.com/neurodata/neuroparc/blob/v1.0/README.md).
 
