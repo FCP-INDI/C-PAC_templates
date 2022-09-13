@@ -1,8 +1,10 @@
 # using neurodebian runtime as parent image
 FROM neurodebian:bionic-non-free
-LABEL org.opencontainers.image.description "NOT INTENDED FOR USE OTHER THAN AS A STAGE IMAGE IN A MULTI-STAGE BUILD \
-neuroparc v1.0-human stage"
-LABEL org.opencontainers.image.source https://github.com/FCP-INDI/C-PAC_templates
+LABEL org.opencontainers.image.description="NOT INTENDED FOR USE OTHER THAN AS A STAGE IMAGE IN A MULTI-STAGE BUILD \
+neuroparc v1.0-human stage image without Schaefer atlases" \
+      org.opencontainers.image.source=https://github.com/FCP-INDI/C-PAC_templates \
+      org.opencontainers.image.licenses=Apache-2.0 \
+      org.opencontainers.image.authors="Neurodata Group <admin@neurodata.io>"
 
 ARG DEBIAN_FRONTEND=noninteractive
 

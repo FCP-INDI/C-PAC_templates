@@ -26,7 +26,11 @@ RUN git clone --branch v0.1.1 --depth 1 https://github.com/DCAN-Labs/dcan-macaqu
 
 # using neurodebian runtime as parent image
 FROM neurodebian:bionic-non-free
-
+LABEL org.opencontainers.image.description="NOT INTENDED FOR USE OTHER THAN AS A STAGE IMAGE IN A MULTI-STAGE BUILD \
+C-PAC templates stage image" \
+      org.opencontainers.image.source=https://github.com/FCP-INDI/C-PAC_templates \
+      org.opencontainers.image.licenses=LGPL-3.0-or-later \
+      org.opencontainers.authors="C-PAC developers <CNL@childmind.org>"
 ARG DEBIAN_FRONTEND=noninteractive
 
 # create usergroup and user
