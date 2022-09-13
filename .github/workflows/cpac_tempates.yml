@@ -84,11 +84,11 @@ jobs:
           NEUROPARC_IMAGE_TAG=`echo "${NEUROPARC_IMAGE_TAG}_${GITHUB_BRANCH//\//_}"`
           echo $NEUROPARC_IMAGE_TAG
           docker manifest inspect ${NEUROPARC_IMAGE_TAG}
-          docker manifest inspect ${NEUROPARC_IMAGE_TAG} > /dev/null
           if [[ $? == 0 ]]
           then
             sed -i "s|neuroparc:v1.0-human|${NEUROPARC_IMAGE_TAG}|" .github/Dockerfiles/cpac_templates.Dockerfile
           fi
+          cat .github/Dockerfiles/cpac_templates.Dockerfile
       - name: Build and push Docker image
         uses: docker/build-push-action@v2.7.0
         with:
