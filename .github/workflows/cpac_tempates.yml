@@ -86,7 +86,7 @@ jobs:
           docker manifest inspect ${NEUROPARC_IMAGE_TAG}
           if [[ $? == 0 ]]
           then
-            sed -i "s|neuroparc:v1.0-human|${NEUROPARC_IMAGE_TAG}|" .github/Dockerfiles/cpac_templates.Dockerfile
+            sed -i "s|ghcr.io/fcp-indi/c-pac_templates/neuroparc:v1.0-human|${NEUROPARC_IMAGE_TAG}|" .github/Dockerfiles/cpac_templates.Dockerfile
           fi
       - name: Build and push Docker image
         uses: docker/build-push-action@v2.7.0
