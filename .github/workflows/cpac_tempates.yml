@@ -53,6 +53,7 @@ jobs:
 
   Ubuntu:
     name: Build Docker image for C-PAC
+    if: ${{ always() }}
     needs: ndmg
     strategy:
       matrix:
@@ -77,6 +78,17 @@ jobs:
         run: |
           GITHUB_BRANCH=${{ github.ref_name }}
           echo DOCKER_TAG=`echo "${{ env.DOCKER_TAG }}_${GITHUB_BRANCH//\//_}"` >> $GITHUB_ENV
+      - name: Set neuroparc tag if necessary
+        if: github.ref_name != 'main'
+        run: |
+          NEUROPARC_IMAGE_TAG=$(echo "ghcr.io/${{ github.repository }}/neuroparc:v1.0-human" | tr '[:upper:]' '[:lower:]')
+          GITHUB_BRANCH=${{ github.ref_name }}
+          NEUROPARC_IMAGE_TAG=`echo "${NEUROPARC_IMAGE_TAG}_${GITHUB_BRANCH//\//_}"`
+          docker manifest inspect ${NEUROPARC_IMAGE_TAG} > /dev/null
+          if [[ $? == 0 ]]
+          then
+            sed -i "s|neuroparc:v1.0-human|${NEUROPARC_IMAGE_TAG}|" .github/Dockerfiles/cpac_templates.Dockerfile
+          fi
       - name: Build and push Docker image
         uses: docker/build-push-action@v2.7.0
         with:
