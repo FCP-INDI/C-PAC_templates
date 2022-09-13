@@ -16,9 +16,7 @@ jobs:
         with:
           # All of these options are optional, so you can remove them if you are happy with the defaults
           concurrent_skipping: same_content_newer
-          paths_filter: |
-            ndmg:
-              - '.github/Dockerfiles/neuroparc.1.0-human-bionic.Dockerfile'
+          paths: '[".github/Dockerfiles/neuroparc.1.0-human-bionic.Dockerfile"]'
 
   ndmg:
     name: Build ndmg templates image
