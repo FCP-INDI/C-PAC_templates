@@ -4,7 +4,8 @@ LABEL org.opencontainers.image.description="NOT INTENDED FOR USE OTHER THAN AS A
 neuroparc v1.0-human stage image without Schaefer atlases" \
       org.opencontainers.image.source=https://github.com/FCP-INDI/C-PAC_templates \
       org.opencontainers.image.licenses=Apache-2.0 \
-      org.opencontainers.image.authors="Neurodata Group <admin@neurodata.io>"
+      org.opencontainers.image.authors="Neurodata Group <admin@neurodata.io>" \
+      org.opencontainers.image.documentation=https://github.com/neurodata/neuroparc/tree/v1.0#readme
 
 ARG DEBIAN_FRONTEND=noninteractive
 

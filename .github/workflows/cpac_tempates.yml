@@ -83,6 +83,7 @@ jobs:
           GITHUB_BRANCH=${{ github.ref_name }}
           NEUROPARC_IMAGE_TAG=`echo "${NEUROPARC_IMAGE_TAG}_${GITHUB_BRANCH//\//_}"`
           echo $NEUROPARC_IMAGE_TAG
+          docker manifest inspect ${NEUROPARC_IMAGE_TAG}
           docker manifest inspect ${NEUROPARC_IMAGE_TAG} > /dev/null
           if [[ $? == 0 ]]
           then
