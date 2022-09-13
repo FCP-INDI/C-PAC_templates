@@ -4,8 +4,56 @@ on:
   push:
 
 jobs:
+  pre_job:
+    # continue-on-error: true # Uncomment once integration is finished
+    runs-on: ubuntu-latest
+    # Map a step output to a job output
+    outputs:
+      should_skip: ${{ steps.skip_check.outputs.should_skip }}
+    steps:
+      - id: skip_check
+        uses: fkirc/skip-duplicate-actions@v4
+        with:
+          # All of these options are optional, so you can remove them if you are happy with the defaults
+          concurrent_skipping: same_content_newer
+          paths_filter: |
+            ndmg:
+              - '.github/Dockerfiles/neuroparc.1.0-human-bionic.Dockerfile'
+
+  ndmg:
+    name: Build ndmg templates image
+    needs: pre_job
+    if: needs.pre_job.outputs.should_skip != 'true' || !fromJSON(needs.pre_job.outputs.paths_result).ndmg.should_skip
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out C-PAC_templates
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Set image tag
+        run: echo DOCKER_TAG=$(echo "ghcr.io/${{ github.repository }}/neuroparc:v1.0-human" | tr '[:upper:]' '[:lower:]') >> $GITHUB_ENV
+      - name: Append branch to image tag
+        if: github.ref_name != 'main'
+        run: |
+          GITHUB_BRANCH=${{ github.ref_name }}
+          echo DOCKER_TAG=`echo "${{ env.DOCKER_TAG }}_${GITHUB_BRANCH//\//_}"` >> $GITHUB_ENV
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v2.7.0
+        with:
+          file: .github/Dockerfiles/neuroparc.1.0-human-bionic.Dockerfile
+          push: true
+          tags: |
+            ${{ env.DOCKER_TAG }}
+
   Ubuntu:
     name: Build Docker image for C-PAC
+    needs: ndmg
     strategy:
       matrix:
         Dockerfile: 

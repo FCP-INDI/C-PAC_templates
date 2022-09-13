@@ -39,10 +39,13 @@ RUN groupadd -r c-pac && \
 COPY surface_resources/standard_mesh_atlases/ /opt/dcan-tools/pipeline/global/templates/standard_mesh_atlases/
 COPY surface_resources/Greyordinates/ /opt/dcan-tools/pipeline/global/templates/Greyordinates/
 
-# Move all templates into /cpac_templates
+# Move templates into /cpac_templates
 COPY --from=GitHubPipelines /macaque_templates/* /cpac_templates/
 COPY --from=GitHubPipelines /atlases/label/human/* /cpac_templates/
 ADD atlases/label/*/* /cpac_templates/
+
+# Get ndmg atlases
+COPY --from=ghcr.io/fcp-indi/c-pac_templates/neuroparc:v1.0-human /ndmg_atlases /ndmg_atlases
 
 # set user
 USER c-pac_user

@@ -2,7 +2,7 @@
 FROM neurodebian:bionic-non-free
 LABEL org.opencontainers.image.description "NOT INTENDED FOR USE OTHER THAN AS A STAGE IMAGE IN A MULTI-STAGE BUILD \
 neuroparc v1.0-human stage"
-LABEL org.opencontainers.image.source https://github.com/FCP-INDI/C-PAC
+LABEL org.opencontainers.image.source https://github.com/FCP-INDI/C-PAC_templates
 
 ARG DEBIAN_FRONTEND=noninteractive
 
@@ -20,4 +20,5 @@ RUN mkdir -p /ndmg_atlases/label && \
     git lfs install --skip-smudge && \
     git lfs pull -I "atlases/label/Human/*" && \
     cp -r /tmp/neuroparc/atlases/label/Human /ndmg_atlases/label && \
-    cd -
+    cd - && \
+    rm -rf /ndmg_atlases/label/Human/Schaefer*
