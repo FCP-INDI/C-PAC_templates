@@ -1,5 +1,5 @@
-C-PAC Templates
-===============
+# C-PAC Templates
+
 In addition to [the templates provided by Neuroparc](#neuroparc), C-PAC includes the templates here. This repository is modeled on [Neuroparc v1.0](https://github.com/neurodata/neuroparc/tree/v1.0).
 
 In the package `ghcr.io/fcp-indi/c-pac_templates`, all templates are stored in a flat structure in the directory `/cpac_templates`.
@@ -24,7 +24,7 @@ In the package `ghcr.io/fcp-indi/c-pac_templates`, all templates are stored in a
 | EZ |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | HarvardOxford |  |  |  |  |  |  |  |  |  |  |  |  |
 | ROIs |  |  |  |  |  |  |  |  |  |  |  |  |
-| Schaefer | 200<br/>300<br/>400<br/>1000 |  |  |  |  |  |  |  |  |  | https://github.com/ThomasYeoLab/CBIG/tree/v0.22.6-Edit_KRR_LITE_to_only_allow_for_corr_kernel/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal/Parcellations/MNI | [MIT](https://github.com/ThomasYeoLab/CBIG/blob/master/LICENSE.md) |
+| <a name="CBIG-Schaefer"></a>Schaefer | 200<br/>300<br/>400<br/>1000 |  |  |  |  |  |  |  |  |  | https://github.com/ThomasYeoLab/CBIG/tree/v0.22.6-Edit_KRR_LITE_to_only_allow_for_corr_kernel/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal/Parcellations/MNI | [MIT](https://github.com/ThomasYeoLab/CBIG/blob/master/LICENSE.md) |
 | Smith | 10 |  |  |  |  |  |  | <blockquote>10 well-matched maps from […] 200-dimensional ICA, Resting-FMRI components […] as shown in PNAS paper</blockquote> | [doi:10.1073/pnas.0905267106](https://dx.doi.org/10.1073/pnas.0905267106) | 2009 | https://www.fmrib.ox.ac.uk/datasets/brainmap+rsns/ https://www.fmrib.ox.ac.uk/datasets/brainmap+rsns/PNAS_Smith09_rsn10.nii.gz |  |
 | Smith `desc-thresh3` | 10 |  |  |  | [`scripts/threshold_mask.py`](https://github.com/FCP-INDI/C-PAC_templates/blob/147e123/scripts/threshold_mask.py) |  |  | Smith (above) thresholded at Z = 3 as in [Fig 1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2722273/figure/F1/) | [doi:10.1073/pnas.0905267106](https://dx.doi.org/10.1073/pnas.0905267106) | 2009 |  |  |
 | Talairach–Tournoux |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -47,13 +47,20 @@ In the package `ghcr.io/fcp-indi/c-pac_templates`, all templates are stored in a
 |------------------------------|----------|----------|-----------|---------|--------------------------------------------------------------------------------------------------------------------------------------|--------------------|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|----------------|---------------------|
 | CHD8 |  | No | No |  | drawn by hand on a BOLD EPI template of one study carried out some time ago at Istituto Italiano di Tecnologia |  |  |  | [doi:10.1038/s41467-021-26131-z](https://doi.org/10.1038/s41467-021-26131-z) | 2021 |  | 
 
+---
 
 <a name="neuroparc"></a>
 # Neuroparc
+This repository contains *a subset* of the files from [:octocat:/neurodata/neuroparc@`v1.0`](https://github.com/neurodata/neuroparc).
+
+These files are packaged in [`ghcr.io/c-pac_templates/neuroparc`](https://github.com/orgs/FCP-INDI/packages/container/package/c-pac_templates%2Fneuroparc) and included in [`ghcr.io/c-pac_templates`](https://github.com/orgs/FCP-INDI/packages/container/package/c-pac_templates) at `/ndmg_atlases`.
+
+This section of this README is mostly excerpted directly from [:octocat:/neurodata/neuroparc@`v1.0`/README.md](https://github.com/neurodata/neuroparc/blob/v1.0/README.md).
+
 * [Atlas Spec](https://github.com/neurodata/neuroparc/blob/devel/atlases/Human/atlas_spec.md)
 * [Table](#Table)
 
-This repository contains a subset of parcellations, templates, masks, and transforms to (and from) MNI152NLin6 space from https://github.com/neurodata/neuroparc. The files are named according to the BIDs specification.
+This repository contains a parcellations, templates, masks, and transforms to (and from) MNI152NLin6 space. The files are named according to the BIDs specification.
 
 ![](https://github.com/NeuroDataDesign/the-ents/blob/explore-atlases/atlases/Results/brainAtlases_color_wRegions.png)
 
@@ -81,3 +88,14 @@ This repository contains a subset of parcellations, templates, masks, and transf
 | Slab | 1068 |  |  | No |  | 493.719 |  |  | https://www.nitrc.org/projects/kessler_jama16/  |  |
 | Talairach | 1105 | No | Yes | Yes | Semi-automated? | 1698.114 | Talairach coordinates | A hierarchical atlas split into 5 leves: Hemisphere, Lobe, Gyrus, Tissue Type, and Cell Type | https://www.ncbi.nlm.nih.gov/pubmed/7008525 | 1980 |
 
+### Excluded neuroparc atlases
+
+The following atlases are [included in neuroparc v1.0](https://github.com/neurodata/neuroparc/tree/v1.0#atlas-info-summary) but excluded from `ghcr.io/c-pac_templates/neuroparc`:
+
+#### superseded by [Schaefer atlases from CBIG](#CBIG-Schaefer)
+- Schaefer2018 - 200
+- Schaefer2018 - 300
+- Schaefer2018 - 400
+- Schaefer2018 - 1000 (Yeo 17)
+- Schaefer2018 - 1000 (Yeo 7)
+- Schaefer2018 - 1000
