@@ -22,6 +22,7 @@ RUN git clone --branch v0.1.1 --depth 1 https://github.com/DCAN-Labs/dcan-macaqu
     for NODECOUNT in 200 300 400 1000; \
     do \
       cp CBIG/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal/Parcellations/MNI/Schaefer2018_${NODECOUNT}Parcels_17Networks_order_FSLMNI152_2mm.nii.gz /atlases/label/human/Schaefer2018_space-FSLMNI152_res-2mm_desc-${NODECOUNT}Parcels17NetworksOrder.nii.gz; \
+      cp CBIG/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal/Parcellations/HCP/fslr32k/cifti/Schaefer2018_${NODECOUNT}Parcels_17Networks_order.dlabel.nii /atlases/label/human/Surface_labels/Schaefer2018_${NODECOUNT}Parcels_17Networks_order.dlabel.nii; \
     done
 
 # using neurodebian runtime as parent image
