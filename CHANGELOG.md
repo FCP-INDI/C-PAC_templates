@@ -14,35 +14,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [v1.8.5] - 2022-06-27
+## [latest]
 
 ### Added
+
 - Added surface files needed for downsampling
 
-
-### Changed
-
-
 ### Fixed
 
+- Fixed templates used for rodent pipeline
 
-
-## [v1.8.4] - 2022-06-27
-
-### Added
-
-
-### Changed
-
-
-### Fixed
-- Fixed templates used for rodent pipeline 
-
-
-
-
-[unreleased]: https://github.com/FCP-INDI/C-PAC/compare/v1.8.4...develop
-[1.8.4]: https://github.com/FCP-INDI/C-PAC/releases/tag/v1.8.4
-[1.8.3]: https://github.com/FCP-INDI/C-PAC/releases/tag/v1.8.3
-[1.8.2]: https://github.com/FCP-INDI/C-PAC/releases/tag/v1.8.2
-[1.8.1]: https://github.com/FCP-INDI/C-PAC/releases/tag/v1.8.1
+[latest]: https://github.com/FCP-INDI/C-PAC_templates/

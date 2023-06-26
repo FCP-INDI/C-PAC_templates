@@ -25,9 +25,11 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Set image tag
-        run: echo DOCKER_TAG=$(echo "ghcr.io/${{ github.repository }}:latest" | tr '[:upper:]' '[:lower:]') >> $GITHUB_ENV
+        run: |
+          echo DOCKER_NAME=$(echo "ghcr.io/${{ github.repository }}" | tr '[:upper:]' '[:lower:]') >> $GITHUB_ENV
+          echo DOCKER_TAG=$(echo "latest") >> $GITHUB_ENV
       - name: Append branch to image tag
-        if: github.ref_name != 'main'
+        if: github.ref_type == 'branch' && github.ref_name != 'main'
         run: |
           GITHUB_BRANCH=${{ github.ref_name }}
           echo DOCKER_TAG=`echo "${{ env.DOCKER_TAG }}_${GITHUB_BRANCH//\//_}"` >> $GITHUB_ENV
@@ -38,4 +40,18 @@ jobs:
           file: .github/Dockerfiles/cpac_templates.Dockerfile
           push: true
           tags: |
-            ${{ env.DOCKER_TAG }}
+            ${{ env.DOCKER_NAME }}:${{ env.DOCKER_TAG }}
+      - name: Docker Publish SemVer Tags
+        if: github.ref_type == 'tag'
+        uses: flownative/action-docker-publish-semver@v1.2.0
+        with:
+          tag_ref: ${{ github.ref }}
+          tag_latest: 'no'
+          source_image_name: ${{ env.DOCKER_NAME }}
+          source_registry_username: ${{ github.actor }}
+          source_registry_password: ${{ secrets.GITHUB_TOKEN }}
+          source_registry_endpoint: https://docker.pkg.github.com/v2/
+          target_image_name: ${{ env.DOCKER_NAME }}
+          target_registry_username: ${{ github.actor }}
+          target_registry_password: ${{ secrets.GITHUB_TOKEN }}
+          target_registry_endpoint: https://docker.pkg.github.com/v2/
