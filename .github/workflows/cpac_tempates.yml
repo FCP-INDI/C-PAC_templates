@@ -34,6 +34,7 @@ jobs:
           GITHUB_BRANCH=${{ github.ref_name }}
           echo DOCKER_TAG=`echo "${{ env.DOCKER_TAG }}_${GITHUB_BRANCH//\//_}"` >> $GITHUB_ENV
       - name: Build and push Docker image
+        if: github.ref_type == 'branch'
         uses: docker/build-push-action@v4.1.1
         with:
           context: .
@@ -41,17 +42,25 @@ jobs:
           push: true
           tags: |
             ${{ env.DOCKER_NAME }}:${{ env.DOCKER_TAG }}
-      - name: Docker Publish SemVer Tags
+      - name: Docker meta
+        id: meta
         if: github.ref_type == 'tag'
-        uses: flownative/action-docker-publish-semver@v1.2.0
+        uses: docker/metadata-action@v4
         with:
-          tag_ref: ${{ github.ref }}
-          tag_latest: 'no'
-          source_image_name: ${{ env.DOCKER_NAME }}
-          source_registry_username: ${{ github.actor }}
-          source_registry_password: ${{ secrets.GITHUB_TOKEN }}
-          source_registry_endpoint: https://docker.pkg.github.com/v2/
-          target_image_name: ${{ env.DOCKER_NAME }}
-          target_registry_username: ${{ github.actor }}
-          target_registry_password: ${{ secrets.GITHUB_TOKEN }}
-          target_registry_endpoint: https://docker.pkg.github.com/v2/
+          images: |
+            ghcr.io/${{ github.repository }}
+          tags: |
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}.{{patch}}
+            type=semver,pattern={{major}}.{{minor}}
+            type=semver,pattern={{major}}
+            type=sha
+      - name: Build and push Docker image
+        if: github.ref_type == 'tag'
+        uses: docker/build-push-action@v4.1.1
+        with:
+          context: .
+          file: .github/Dockerfiles/cpac_templates.Dockerfile
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
