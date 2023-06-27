@@ -38,8 +38,10 @@ jobs:
             type=semver,pattern={{major}}.{{minor}}.{{patch}},priorty=899
             type=semver,pattern={{major}}.{{minor}},priority=898
             type=semver,pattern={{major}},priority=897
+            type=ref,event=branch,priority=800
+            type=ref,event=pr,priority=799
             type=raw,value=latest,enable={{is_default_branch}},priorty=700
-            type=sha,prefix={{branch}},priority=600,onlatest=false
+            type=sha,priority=600,onlatest=false
       - name: Build and push Docker image
         uses: docker/build-push-action@v4.1.1
         with:
