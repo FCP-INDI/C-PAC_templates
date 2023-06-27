@@ -27,36 +27,20 @@ jobs:
       - name: Set image tag
         run: |
           echo DOCKER_NAME=$(echo "ghcr.io/${{ github.repository }}" | tr '[:upper:]' '[:lower:]') >> $GITHUB_ENV
-          echo DOCKER_TAG=$(echo "latest") >> $GITHUB_ENV
-      - name: Append branch to image tag
-        if: github.ref_type == 'branch' && github.ref_name != 'main'
-        run: |
-          GITHUB_BRANCH=${{ github.ref_name }}
-          echo DOCKER_TAG=`echo "${{ env.DOCKER_TAG }}_${GITHUB_BRANCH//\//_}"` >> $GITHUB_ENV
-      - name: Build and push Docker image
-        if: github.ref_type == 'branch'
-        uses: docker/build-push-action@v4.1.1
-        with:
-          context: .
-          file: .github/Dockerfiles/cpac_templates.Dockerfile
-          push: true
-          tags: |
-            ${{ env.DOCKER_NAME }}:${{ env.DOCKER_TAG }}
       - name: Docker meta
         id: meta
-        if: github.ref_type == 'tag'
         uses: docker/metadata-action@v4
         with:
           images: |
             ghcr.io/${{ github.repository }}
           tags: |
-            type=semver,pattern={{version}}
-            type=semver,pattern={{major}}.{{minor}}.{{patch}}
-            type=semver,pattern={{major}}.{{minor}}
-            type=semver,pattern={{major}}
-            type=sha
+            type=semver,pattern={{version}},priority=900
+            type=semver,pattern={{major}}.{{minor}}.{{patch}},priorty=899
+            type=semver,pattern={{major}}.{{minor}},priority=898
+            type=semver,pattern={{major}},priority=897
+            type=raw,value=latest,enable={{is_default_branch}},priorty=700
+            type=sha,prefix={{branch}},priority=600,onlatest=false
       - name: Build and push Docker image
-        if: github.ref_type == 'tag'
         uses: docker/build-push-action@v4.1.1
         with:
           context: .
