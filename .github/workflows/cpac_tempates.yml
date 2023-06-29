@@ -17,7 +17,6 @@ jobs:
         with:
           fetch-depth: 2
           lfs: true
-      - run: git lfs pull
       - name: Log in to GitHub Container Registry
         uses: docker/login-action@v2.2.0
         with:
@@ -42,6 +41,7 @@ jobs:
             type=ref,event=pr,priority=799
             type=raw,value=latest,enable={{is_default_branch}},priorty=700
             type=sha,priority=600,onlatest=false
+      - run: git lfs pull
       - name: Build and push Docker image
         uses: docker/build-push-action@v4.1.1
         with:
