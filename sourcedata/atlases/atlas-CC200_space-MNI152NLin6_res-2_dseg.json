@@ -1,14 +1,9 @@
 {
     "MetaData": {
         "AtlasName": "CC200",
-        "Description": "",
-        "Native Coordinate Space": "",
-        "Hierarchical": "",
-        "Symmetrical": "",
         "Number of Regions": "200",
         "Average Volume Per Region": "217.065",
         "Year Generated": "2011",
-        "Generation Method": "",
         "Source": "https://ccraddock.github.io/cluster_roi/atlases.html"
     },
     "rois": {

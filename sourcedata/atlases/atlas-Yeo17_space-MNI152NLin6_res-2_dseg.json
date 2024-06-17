@@ -1,14 +1,13 @@
 {
     "MetaData": {
         "AtlasName": "Yeo-17",
-        "Description": "",
-        "Native Coordinate Space": "",
-        "Hierarchical": "no",
-        "Symmetrical": "yes",
+        "Description": "Local networks confined to sensory and motor cortices, functional connectivity followed topographic representations across adjacent areas.",
+        "Hierarchical": false,
+        "Symmetrical": true,
         "Number of Regions": "17",
         "Average Volume Per Region": "3881.4117647058824",
-        "Year Generated": "2020",
-        "Generation Method": "",
+        "Year Generated": "2011",
+        "Generation Method": "Clustered to identify networks of functionally coupled regions.",
         "Source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3174820/"
     },
     "rois": {

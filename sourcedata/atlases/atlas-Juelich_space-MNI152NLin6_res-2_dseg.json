@@ -1,14 +1,12 @@
 {
     "MetaData": {
         "AtlasName": "Juelich",
-        "Description": "",
-        "Native Coordinate Space": "",
-        "Hierarchical": "yes",
-        "Symmetrical": "no",
+        "Hierarchical": true,
+        "Symmetrical": false,
         "Number of Regions": "103",
         "Average Volume Per Region": "616.9902912621359",
-        "Year Generated": "2020",
-        "Generation Method": "",
+        "Year Generated": "2005",
+        "Generation Method": "Probabilistic atlas created by averaging multi-subject post-mortem cyto- and myelo-architectonic segmentations.",
         "Source": "https://scalablebrainatlas.incf.org/human/EAZ05_v18"
     },
     "rois": {

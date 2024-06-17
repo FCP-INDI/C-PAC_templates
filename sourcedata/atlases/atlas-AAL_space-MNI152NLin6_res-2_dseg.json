@@ -1,14 +1,13 @@
 {
     "MetaData": {
         "AtlasName": "AAL",
-        "Description": "",
-        "Native Coordinate Space": "",
-        "Hierarchical": "yes",
-        "Symmetrical": "no",
+        "Description": "Automated anatomical labelling based on sulci.",
+        "Hierarchical": true,
+        "Symmetrical": false,
         "Number of Regions": "116",
         "Average Volume Per Region": "1598.3189655172414",
-        "Year Generated": "2020",
-        "Generation Method": "",
+        "Year Generated": "2002",
+        "Generation Method": "Delineated with respect to anatomical landmarks (following sulci course in brain)",
         "Source": "https://www.ncbi.nlm.nih.gov/pubmed/11771995"
     },
     "rois": {

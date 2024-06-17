@@ -1,14 +1,12 @@
 {
     "MetaData": {
         "AtlasName": "Slab907",
-        "Description": "",
-        "Native Coordinate Space": "",
-        "Hierarchical": "",
-        "Symmetrical": "no",
+        "Description": "Grid of ROI points spanning entire MNI brain volume.",
+        "Symmetrical": false,
         "Number of Regions": "907",
         "Average Volume Per Region": "54.02866593164278",
         "Year Generated": "2014",
-        "Generation Method": "",
+        "Generation Method": "Placed 907 ROIs at regular intervals throughout the cortex.",
         "Source": "https://doi.org/10.1073/pnas.1407787111"
     },
     "rois": {

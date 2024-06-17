@@ -1,14 +1,10 @@
 {
     "MetaData": {
         "AtlasName": "Schaefer2018_300Parcels17NetworksOrder",
-        "Description": "",
-        "Native Coordinate Space": "",
-        "Hierarchical": "",
-        "Symmetrical": "",
         "Number of Regions": "134",
         "Average Volume Per Region": "372.46268656716416",
         "Year Generated": "2018",
-        "Generation Method": "",
+        "Generation Method": "Resting state fMRI data from 1489 subjects were registered using surface-based alignment. A gradient weighted markov random field approach was employed to identify cortical parcels ranging from 100 to 1000 parcels.",
         "Source": "https://github.com/ThomasYeoLab/CBIG/tree/v0.22.6-Edit_KRR_LITE_to_only_allow_for_corr_kernel/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal/Parcellations/MNI"
     },
     "rois": {

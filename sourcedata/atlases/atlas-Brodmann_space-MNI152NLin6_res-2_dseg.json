@@ -1,14 +1,13 @@
 {
     "MetaData": {
         "AtlasName": "Brodmann",
-        "Description": "",
-        "Native Coordinate Space": "",
-        "Hierarchical": "no",
-        "Symmetrical": "yes",
+        "Description": "Brodman areas separated by gyri.",
+        "Hierarchical": false,
+        "Symmetrical": true,
         "Number of Regions": "41",
         "Average Volume Per Region": "4122.317073170731",
-        "Year Generated": "2020",
-        "Generation Method": "",
+        "Year Generated": "1909",
+        "Generation Method": "Corticall parcellation separating regions based on cellular morphology and organization",
         "Source": "https://scalablebrainatlas.incf.org/human/B05_on_Conte69"
     },
     "rois": {

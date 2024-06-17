@@ -1,14 +1,13 @@
 {
     "MetaData": {
         "AtlasName": "HarvardOxford Subcortical",
-        "Description": "",
-        "Native Coordinate Space": "",
-        "Hierarchical": "no",
-        "Symmetrical": "no",
+        "Description": "Neuroanatomic subdivisions delineated by this general segmentation generaly corresponding to natural gray matter boundaries.",
+        "Hierarchical": false,
+        "Symmetrical": false,
         "Number of Regions": "21",
         "Average Volume Per Region": "9764.380952380952",
-        "Year Generated": "2020",
-        "Generation Method": "",
+        "Year Generated": "2005",
+        "Generation Method": "Created by subdividing neocortex by topographic criteria into 48 parcellation units corresponding to the principal cerebral gyri.",
         "Source": "https://scalablebrainatlas.incf.org/human/HOA06"
     },
     "rois": {

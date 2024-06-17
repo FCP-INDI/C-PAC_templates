@@ -1,0 +1,42 @@
+{
+  "Name": "Atlases for https://fcp-indi.github.io/docs/v1.8.7/user/pipelines/preconfig#rbc-options-reprobrainchart-options-pipeline",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "derivative",
+  "License": "CC0",
+  "Authors": [
+      "Jon Clucas",
+      "Matt Cieslak"
+  ],
+  "GeneratedBy": [
+      {
+          "Name": "Manual",
+          "Description": "Collected from C-PAC sources and reformatted toward BEP038 draft https://docs.google.com/document/d/e/2PACX-1vQ39OGa0-r_8bxpmKsajfgbQsLLUAE6RrXU7bA2I_IOJfhvn7GWRp6u5-Ys2vnVcJA3JQfHbojDdvVo/pub"
+      }
+  ],
+  "SourceDatasets": [
+      {
+          "URL": "https://github.com/FCP-INDI/C-PAC/blob/v1.8.7/CPAC/resources/configs/pipeline_config_rbc-options.yml",
+          "Version": "v1.8.7"
+      },
+      {
+          "URL": "https://github.com/FCP-INDI/C-PAC_templates/tree/v1.8.6-2",
+          "Version": "v1.8.6-2"
+      },
+      {
+          "URL": "https://github.com/neurodata/neuroparc/tree/v1.0",
+          "Version": "v1.0"
+      },
+      {
+          "URL": "https://github.com/ThomasYeoLab/CBIG/tree/v0.22.6-Edit_KRR_LITE_to_only_allow_for_corr_kernel/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal/Parcellations/MNI",
+          "Version": "v0.22.6-Edit_KRR_LITE_to_only_allow_for_corr_kernel"
+      },
+      {
+          "URL": "https://ccraddock.github.io/cluster_roi/",
+          "Version": "v1.0.0"
+      },
+      {
+          "URL": "https://docs.google.com/document/d/1RxW4cARr3-EiBEcXjLpSIVidvnUSHE7yJCUY91i5TfM",
+          "Version": "https://docs.google.com/document/d/e/2PACX-1vQ39OGa0-r_8bxpmKsajfgbQsLLUAE6RrXU7bA2I_IOJfhvn7GWRp6u5-Ys2vnVcJA3JQfHbojDdvVo/pub"
+      }
+  ]
+}
