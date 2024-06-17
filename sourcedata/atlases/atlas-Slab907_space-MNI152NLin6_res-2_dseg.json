@@ -6,7 +6,7 @@
         "Hierarchical": "",
         "Symmetrical": "no",
         "Number of Regions": "907",
-        "Average Volume Per Region": "994.0848017621146",
+        "Average Volume Per Region": "54.02866593164278",
         "Year Generated": "2014",
         "Generation Method": "",
         "Source": "https://doi.org/10.1073/pnas.1407787111"
@@ -14,12 +14,7 @@
     "rois": {
         "0": {
             "label": "background",
-            "center": [
-                0.006265046126813445,
-                -17.986188314540925,
-                17.826959144823547
-            ],
-            "size": 853625
+            "center": null
         },
         "1": {
             "label": "region00001",

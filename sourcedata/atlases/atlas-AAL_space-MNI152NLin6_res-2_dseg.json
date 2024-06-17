@@ -6,7 +6,7 @@
         "Hierarchical": "yes",
         "Symmetrical": "no",
         "Number of Regions": "116",
-        "Average Volume Per Region": "7714.777777777777",
+        "Average Volume Per Region": "1598.3189655172414",
         "Year Generated": "2020",
         "Generation Method": "",
         "Source": "https://www.ncbi.nlm.nih.gov/pubmed/11771995"
@@ -14,12 +14,7 @@
     "rois": {
         "0": {
             "label": "background",
-            "center": [
-                0.025659726919144532,
-                -16.94848112545793,
-                20.306536118157467
-            ],
-            "size": 717224
+            "center": null
         },
         "1": {
             "label": "L_Precentral_gyrus",

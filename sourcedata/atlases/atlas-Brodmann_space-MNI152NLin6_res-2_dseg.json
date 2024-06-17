@@ -6,7 +6,7 @@
         "Hierarchical": "no",
         "Symmetrical": "yes",
         "Number of Regions": "41",
-        "Average Volume Per Region": "21491.166666666668",
+        "Average Volume Per Region": "4122.317073170731",
         "Year Generated": "2020",
         "Generation Method": "",
         "Source": "https://scalablebrainatlas.incf.org/human/B05_on_Conte69"
@@ -14,12 +14,7 @@
     "rois": {
         "0": {
             "label": "background",
-            "center": [
-                0.08107883058434595,
-                -17.85762199158853,
-                19.460172461099333
-            ],
-            "size": 733614
+            "center": null
         },
         "1": {
             "label": "Brodmann_area_1",

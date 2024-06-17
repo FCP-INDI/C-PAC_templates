@@ -6,7 +6,7 @@
         "Hierarchical": "no",
         "Symmetrical": "yes",
         "Number of Regions": "48",
-        "Average Volume Per Region": "18421.0",
+        "Average Volume Per Region": "2744.1458333333335",
         "Year Generated": "2020",
         "Generation Method": "",
         "Source": "https://scalablebrainatlas.incf.org/human/HOA06"
@@ -14,12 +14,7 @@
     "rois": {
         "0": {
             "label": "background",
-            "center": [
-                -0.08446266427368698,
-                -18.0051493078671,
-                18.03635141430776
-            ],
-            "size": 770910
+            "center": null
         },
         "1": {
             "label": "Frontal_Pole",

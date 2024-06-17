@@ -6,7 +6,7 @@
         "Hierarchical": "no",
         "Symmetrical": "yes",
         "Number of Regions": "17",
-        "Average Volume Per Region": "50146.055555555555",
+        "Average Volume Per Region": "3881.4117647058824",
         "Year Generated": "2020",
         "Generation Method": "",
         "Source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3174820/"
@@ -14,12 +14,7 @@
     "rois": {
         "0": {
             "label": "background",
-            "center": [
-                -0.05397952838761455,
-                -18.400837040225767,
-                18.263330463481125
-            ],
-            "size": 836645
+            "center": null
         },
         "1": {
             "label": "1_Visual_A",

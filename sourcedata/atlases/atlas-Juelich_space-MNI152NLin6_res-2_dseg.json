@@ -6,7 +6,7 @@
         "Hierarchical": "yes",
         "Symmetrical": "no",
         "Number of Regions": "103",
-        "Average Volume Per Region": "8679.125",
+        "Average Volume Per Region": "616.9902912621359",
         "Year Generated": "2020",
         "Generation Method": "",
         "Source": "https://scalablebrainatlas.incf.org/human/EAZ05_v18"
@@ -14,12 +14,7 @@
     "rois": {
         "0": {
             "label": "background",
-            "center": [
-                -0.10403876066007456,
-                -16.658616559097496,
-                17.04260692852759
-            ],
-            "size": 839079
+            "center": null
         },
         "1": {
             "label": "L_Anterior_intra-parietal_sulcus_hIP1",

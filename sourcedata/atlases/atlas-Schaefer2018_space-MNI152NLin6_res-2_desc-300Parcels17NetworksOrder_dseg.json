@@ -5,8 +5,8 @@
         "Native Coordinate Space": "",
         "Hierarchical": "",
         "Symmetrical": "",
-        "Number of Regions": "300",
-        "Average Volume Per Region": "440.1066666666667",
+        "Number of Regions": "134",
+        "Average Volume Per Region": "372.46268656716416",
         "Year Generated": "2018",
         "Generation Method": "",
         "Source": "https://github.com/ThomasYeoLab/CBIG/tree/v0.22.6-Edit_KRR_LITE_to_only_allow_for_corr_kernel/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal/Parcellations/MNI"
@@ -32,7 +32,7 @@
                 -72.73716012084591,
                 -9.419939577039273
             ],
-            "size": 331
+            "size": 358
         },
         "3": {
             "label": "17Networks_LH_VisCent_ExStr_3",
@@ -64,56 +64,52 @@
         "6": {
             "label": "17Networks_LH_VisCent_ExStr_6",
             "center": [
-                -45.798076923076934,
-                -73.95192307692308,
-                5.57692307692308
+                -45.46153846153845,
+                -75.0,
+                3.1615384615384556
             ],
-            "size": 416
+            "size": 260
         },
         "7": {
             "label": "17Networks_LH_VisCent_Striate_1",
             "center": [
-                -5.847645429362885,
-                -94.1994459833795,
-                -4.5595567867036095
+                -5.854285714285709,
+                -94.15428571428572,
+                -4.965714285714284
             ],
-            "size": 722
+            "size": 700
         },
         "8": {
             "label": "17Networks_LH_VisCent_ExStr_7",
             "center": [
-                -26.180574555403552,
-                -94.80437756497949,
-                5.288645690834471
+                -27.140311804008903,
+                -94.53006681514476,
+                1.3674832962138055
             ],
-            "size": 731
+            "size": 553
         },
         "9": {
             "label": "17Networks_LH_VisCent_ExStr_8",
             "center": [
-                -39.78057553956833,
-                -83.70143884892087,
-                14.356115107913666
+                -38.0,
+                -86.55555555555556,
+                5.666666666666671
             ],
-            "size": 557
+            "size": 36
         },
         "10": {
             "label": "17Networks_LH_VisCent_ExStr_9",
             "center": [
-                -12.819484240687672,
-                -95.26934097421204,
-                18.641833810888244
+                -10.5,
+                -98.91666666666667,
+                4.833333333333329
             ],
-            "size": 698
+            "size": 26
         },
         "11": {
             "label": "17Networks_LH_VisCent_ExStr_10",
-            "center": [
-                -27.549425287356314,
-                -83.2,
-                23.719540229885055
-            ],
-            "size": 435
+            "center": null,
+            "size": null
         },
         "12": {
             "label": "17Networks_LH_VisPeri_ExStrInf_1",
@@ -154,290 +150,186 @@
         "16": {
             "label": "17Networks_LH_VisPeri_StriCal_1",
             "center": [
-                -6.163194444444443,
-                -77.3125,
-                8.416666666666671
+                -6.735426008968602,
+                -79.03139013452915,
+                4.1345291479820645
             ],
-            "size": 576
+            "size": 223
         },
         "17": {
             "label": "17Networks_LH_VisPeri_ExStrSup_1",
             "center": [
-                -18.317460317460316,
-                -64.62222222222222,
-                6.717460317460322
+                -19.09826589595376,
+                -64.3699421965318,
+                4.427745664739888
             ],
-            "size": 317
+            "size": 175
         },
         "18": {
             "label": "17Networks_LH_VisPeri_ExStrSup_2",
-            "center": [
-                -2.8564705882352968,
-                -85.88705882352942,
-                23.312941176470588
-            ],
-            "size": 427
+            "center": null,
+            "size": null
         },
         "19": {
             "label": "17Networks_LH_VisPeri_ExStrSup_3",
-            "center": [
-                -10.726829268292676,
-                -72.96585365853659,
-                22.77073170731707
-            ],
-            "size": 411
+            "center": null,
+            "size": null
         },
         "20": {
             "label": "17Networks_LH_VisPeri_ExStrSup_4",
-            "center": [
-                -13.663551401869157,
-                -85.7803738317757,
-                36.85046728971963
-            ],
-            "size": 428
+            "center": null,
+            "size": null
         },
         "21": {
             "label": "17Networks_LH_SomMotA_1",
-            "center": [
-                -7.867684478371501,
-                -10.54961832061069,
-                44.987277353689564
-            ],
-            "size": 393
+            "center": null,
+            "size": null
         },
         "22": {
             "label": "17Networks_LH_SomMotA_2",
-            "center": [
-                -41.94759825327512,
-                -12.908296943231448,
-                48.995633187772924
-            ],
-            "size": 229
+            "center": null,
+            "size": null
         },
         "23": {
             "label": "17Networks_LH_SomMotA_3",
-            "center": [
-                -48.07529411764705,
-                -28.49411764705883,
-                57.30823529411765
-            ],
-            "size": 428
+            "center": null,
+            "size": null
         },
         "24": {
             "label": "17Networks_LH_SomMotA_4",
-            "center": [
-                -43.13286713286715,
-                -20.853146853146853,
-                54.46153846153847
-            ],
-            "size": 286
+            "center": null,
+            "size": null
         },
         "25": {
             "label": "17Networks_LH_SomMotA_5",
-            "center": [
-                -5.152380952380952,
-                -23.51428571428572,
-                51.72380952380952
-            ],
-            "size": 210
+            "center": null,
+            "size": null
         },
         "26": {
             "label": "17Networks_LH_SomMotA_6",
-            "center": [
-                -34.656716417910445,
-                -18.4136460554371,
-                63.36460554371001
-            ],
-            "size": 469
+            "center": null,
+            "size": null
         },
         "27": {
             "label": "17Networks_LH_SomMotA_7",
-            "center": [
-                -3.9807692307692264,
-                -7.038461538461533,
-                60.53846153846155
-            ],
-            "size": 312
+            "center": null,
+            "size": null
         },
         "28": {
             "label": "17Networks_LH_SomMotA_8",
-            "center": [
-                -31.5,
-                -29.053846153846152,
-                61.85384615384615
-            ],
-            "size": 260
+            "center": null,
+            "size": null
         },
         "29": {
             "label": "17Networks_LH_SomMotA_9",
-            "center": [
-                -26.93841642228739,
-                -38.111436950146626,
-                67.0850439882698
-            ],
-            "size": 342
+            "center": null,
+            "size": null
         },
         "30": {
             "label": "17Networks_LH_SomMotA_10",
-            "center": [
-                -21.16666666666667,
-                -11.743243243243242,
-                67.88738738738738
-            ],
-            "size": 451
+            "center": null,
+            "size": null
         },
         "31": {
             "label": "17Networks_LH_SomMotA_11",
-            "center": [
-                -8.072222222222223,
-                -41.355555555555554,
-                66.32777777777778
-            ],
-            "size": 360
+            "center": null,
+            "size": null
         },
         "32": {
             "label": "17Networks_LH_SomMotA_12",
             "center": [
-                -4.541082164328657,
-                -25.567134268537075,
-                66.99799599198397
+                8.0,
+                2.5714285714285836,
+                36.85714285714286
             ],
-            "size": 499
+            "size": 18
         },
         "33": {
             "label": "17Networks_LH_SomMotA_13",
-            "center": [
-                -17.38591549295775,
-                -46.96901408450704,
-                70.8281690140845
-            ],
-            "size": 357
+            "center": null,
+            "size": null
         },
         "34": {
             "label": "17Networks_LH_SomMotA_14",
-            "center": [
-                -18.29390681003585,
-                -31.05376344086021,
-                69.14695340501791
-            ],
-            "size": 279
+            "center": null,
+            "size": null
         },
         "35": {
             "label": "17Networks_LH_SomMotA_15",
-            "center": [
-                -16.632478632478637,
-                -24.82905982905983,
-                69.57264957264957
-            ],
-            "size": 235
+            "center": null,
+            "size": null
         },
         "36": {
             "label": "17Networks_LH_SomMotB_Aud_1",
             "center": [
-                -48.51173708920189,
-                -11.44600938967136,
-                1.004694835680752
+                -49.56125356125355,
+                -9.920227920227916,
+                -0.3874643874643908
             ],
-            "size": 426
+            "size": 351
         },
         "37": {
             "label": "17Networks_LH_SomMotB_Aud_2",
             "center": [
-                -54.12730318257957,
-                -22.93132328308208,
-                8.036850921273029
+                -54.83333333333334,
+                -18.39393939393939,
+                3.5
             ],
-            "size": 598
+            "size": 132
         },
         "38": {
             "label": "17Networks_LH_SomMotB_S2_1",
-            "center": [
-                -37.954802259887,
-                -12.937853107344637,
-                14.90395480225989
-            ],
-            "size": 177
+            "center": null,
+            "size": null
         },
         "39": {
             "label": "17Networks_LH_SomMotB_S2_2",
             "center": [
-                -35.01167315175097,
-                -25.5408560311284,
-                15.338521400778205
+                -33.5,
+                -26.5,
+                5.5
             ],
-            "size": 257
+            "size": 7
         },
         "40": {
             "label": "17Networks_LH_SomMotB_S2_3",
-            "center": [
-                -50.57918552036199,
-                -12.941176470588232,
-                13.619909502262445
-            ],
-            "size": 222
+            "center": null,
+            "size": null
         },
         "41": {
             "label": "17Networks_LH_SomMotB_Aud_3",
-            "center": [
-                -56.41050119331743,
-                -37.909307875894996,
-                17.47971360381861
-            ],
-            "size": 419
+            "center": null,
+            "size": null
         },
         "42": {
             "label": "17Networks_LH_SomMotB_S2_4",
-            "center": [
-                -43.56050955414014,
-                -30.050955414012734,
-                18.261146496815286
-            ],
-            "size": 314
+            "center": null,
+            "size": null
         },
         "43": {
             "label": "17Networks_LH_SomMotB_S2_5",
-            "center": [
-                -61.18725099601593,
-                -3.6414342629482093,
-                14.430278884462155
-            ],
-            "size": 251
+            "center": null,
+            "size": null
         },
         "44": {
             "label": "17Networks_LH_SomMotB_S2_6",
-            "center": [
-                -59.21428571428572,
-                -18.4375,
-                19.83035714285714
-            ],
-            "size": 224
+            "center": null,
+            "size": null
         },
         "45": {
             "label": "17Networks_LH_SomMotB_Cent_1",
-            "center": [
-                -57.48355263157896,
-                -6.690789473684205,
-                28.76973684210526
-            ],
-            "size": 608
+            "center": null,
+            "size": null
         },
         "46": {
             "label": "17Networks_LH_SomMotB_Cent_2",
-            "center": [
-                -50.14285714285714,
-                -7.65584415584415,
-                42.3896103896104
-            ],
-            "size": 308
+            "center": null,
+            "size": null
         },
         "47": {
             "label": "17Networks_LH_SomMotB_Cent_3",
-            "center": [
-                -50.140127388535035,
-                -16.675159235668787,
-                43.68152866242038
-            ],
-            "size": 158
+            "center": null,
+            "size": null
         },
         "48": {
             "label": "17Networks_LH_DorsAttnA_TempOcc_1",
@@ -469,263 +361,175 @@
         "51": {
             "label": "17Networks_LH_DorsAttnA_ParOcc_1",
             "center": [
-                -47.6386768447837,
-                -65.9796437659033,
-                15.150127226463098
+                -46.33333333333334,
+                -60.66666666666667,
+                6.0
             ],
-            "size": 393
+            "size": 11
         },
         "52": {
             "label": "17Networks_LH_DorsAttnA_SPL_1",
-            "center": [
-                -22.638036809815958,
-                -78.82208588957056,
-                39.68098159509202
-            ],
-            "size": 163
+            "center": null,
+            "size": null
         },
         "53": {
             "label": "17Networks_LH_DorsAttnA_SPL_2",
-            "center": [
-                -26.10884353741497,
-                -68.48526077097506,
-                38.57596371882086
-            ],
-            "size": 442
+            "center": null,
+            "size": null
         },
         "54": {
             "label": "17Networks_LH_DorsAttnA_SPL_3",
-            "center": [
-                -16.792523364485987,
-                -71.58878504672897,
-                54.65420560747664
-            ],
-            "size": 535
+            "center": null,
+            "size": null
         },
         "55": {
             "label": "17Networks_LH_DorsAttnA_SPL_4",
-            "center": [
-                -28.966292134831463,
-                -60.02247191011236,
-                61.40074906367042
-            ],
-            "size": 270
+            "center": null,
+            "size": null
         },
         "56": {
             "label": "17Networks_LH_DorsAttnB_TempOcc_1",
             "center": [
-                -55.44888888888889,
-                -62.48444444444444,
-                2.0222222222222257
-            ],
-            "size": 450
-        },
-        "57": {
-            "label": "17Networks_LH_DorsAttnB_PostC_1",
-            "center": [
-                -58.95409181636725,
-                -20.866267465069853,
-                35.25748502994011
-            ],
-            "size": 502
-        },
-        "58": {
-            "label": "17Networks_LH_DorsAttnB_PostC_2",
-            "center": [
-                -54.5225806451613,
-                -30.864516129032253,
-                44.096774193548384
-            ],
-            "size": 316
-        },
-        "59": {
-            "label": "17Networks_LH_DorsAttnB_PostC_3",
-            "center": [
-                -41.80383795309169,
-                -33.94882729211088,
-                47.070362473347544
-            ],
-            "size": 470
-        },
-        "60": {
-            "label": "17Networks_LH_DorsAttnB_PostC_4",
-            "center": [
-                -30.66133333333333,
-                -46.592,
-                62.81066666666666
+                -55.39361702127658,
+                -62.148936170212764,
+                0.5904255319148888
             ],
             "size": 376
         },
+        "57": {
+            "label": "17Networks_LH_DorsAttnB_PostC_1",
+            "center": null,
+            "size": null
+        },
+        "58": {
+            "label": "17Networks_LH_DorsAttnB_PostC_2",
+            "center": null,
+            "size": null
+        },
+        "59": {
+            "label": "17Networks_LH_DorsAttnB_PostC_3",
+            "center": null,
+            "size": null
+        },
+        "60": {
+            "label": "17Networks_LH_DorsAttnB_PostC_4",
+            "center": null,
+            "size": null
+        },
         "61": {
             "label": "17Networks_LH_DorsAttnB_PostC_5",
-            "center": [
-                -12.86444007858546,
-                -58.73084479371316,
-                64.37721021611003
-            ],
-            "size": 510
+            "center": null,
+            "size": null
         },
         "62": {
             "label": "17Networks_LH_DorsAttnB_FEF_1",
-            "center": [
-                -31.949025487256364,
-                -4.911544227886054,
-                52.557721139430285
-            ],
-            "size": 667
+            "center": null,
+            "size": null
         },
         "63": {
             "label": "17Networks_LH_DorsAttnB_FEF_2",
-            "center": [
-                -21.71844660194175,
-                4.990291262135912,
-                64.10194174757282
-            ],
-            "size": 413
+            "center": null,
+            "size": null
         },
         "64": {
             "label": "17Networks_LH_SalVentAttnA_ParOper_1",
-            "center": [
-                -58.19463087248323,
-                -44.02684563758389,
-                27.59060402684564
-            ],
-            "size": 299
+            "center": null,
+            "size": null
         },
         "65": {
             "label": "17Networks_LH_SalVentAttnA_ParOper_2",
-            "center": [
-                -59.35941320293398,
-                -29.535452322738394,
-                23.66259168704157
-            ],
-            "size": 409
+            "center": null,
+            "size": null
         },
         "66": {
             "label": "17Networks_LH_SalVentAttnA_Ins_1",
             "center": [
-                -39.16049382716051,
-                -3.157750342935529,
-                -3.6241426611796896
+                -39.1157894736842,
+                -2.5233082706766936,
+                -4.649624060150373
             ],
-            "size": 730
+            "size": 665
         },
         "67": {
             "label": "17Networks_LH_SalVentAttnA_Ins_2",
             "center": [
-                -33.04905660377358,
-                18.701886792452825,
-                8.143396226415092
+                -32.33333333333333,
+                15.833333333333343,
+                3.8333333333333286
             ],
-            "size": 265
+            "size": 41
         },
         "68": {
             "label": "17Networks_LH_SalVentAttnA_Ins_3",
-            "center": [
-                -37.982532751091696,
-                1.004366812227076,
-                11.484716157205241
-            ],
-            "size": 230
+            "center": null,
+            "size": null
         },
         "69": {
             "label": "17Networks_LH_SalVentAttnA_FrOper_1",
             "center": [
-                -52.0,
-                0.7254901960784252,
-                5.503267973856211
+                -52.203125,
+                3.078125,
+                1.875
             ],
-            "size": 306
+            "size": 128
         },
         "70": {
             "label": "17Networks_LH_SalVentAttnA_ParMed_1",
-            "center": [
-                -11.61554192229039,
-                -33.263803680981596,
-                44.12269938650307
-            ],
-            "size": 489
+            "center": null,
+            "size": null
         },
         "71": {
             "label": "17Networks_LH_SalVentAttnA_ParMed_2",
-            "center": [
-                -5.483870967741936,
-                -49.490322580645156,
-                56.32258064516128
-            ],
-            "size": 310
+            "center": null,
+            "size": null
         },
         "72": {
             "label": "17Networks_LH_SalVentAttnA_FrMed_1",
-            "center": [
-                -5.790728476821187,
-                9.41986754966888,
-                41.20264900662252
-            ],
-            "size": 755
+            "center": null,
+            "size": null
         },
         "73": {
             "label": "17Networks_LH_SalVentAttnA_FrMed_2",
-            "center": [
-                -11.374545454545455,
-                -3.309090909090912,
-                71.24363636363637
-            ],
-            "size": 275
+            "center": null,
+            "size": null
         },
         "74": {
             "label": "17Networks_LH_SalVentAttnB_IPL_1",
-            "center": [
-                -60.50864197530865,
-                -38.069135802469134,
-                39.06666666666666
-            ],
-            "size": 405
+            "center": null,
+            "size": null
         },
         "75": {
             "label": "17Networks_LH_SalVentAttnB_PFCl_1",
-            "center": [
-                -27.214128035320087,
-                45.6335540838852,
-                28.62030905077262
-            ],
-            "size": 906
+            "center": null,
+            "size": null
         },
         "76": {
             "label": "17Networks_LH_SalVentAttnB_PFCl_2",
-            "center": [
-                -38.22887323943661,
-                33.549295774647874,
-                35.41197183098592
-            ],
-            "size": 568
+            "center": null,
+            "size": null
         },
         "77": {
             "label": "17Networks_LH_SalVentAttnB_Ins_1",
             "center": [
-                -32.89090909090909,
-                24.327272727272714,
-                -1.1272727272727252
+                -32.885844748858446,
+                24.34703196347033,
+                -1.1598173515981784
             ],
-            "size": 220
+            "size": 219
         },
         "78": {
             "label": "17Networks_LH_SalVentAttnB_Ins_2",
             "center": [
-                -44.72727272727272,
-                11.414141414141426,
-                2.080808080808083
+                -45.448717948717956,
+                11.128205128205138,
+                0.8205128205128176
             ],
-            "size": 198
+            "size": 156
         },
         "79": {
             "label": "17Networks_LH_SalVentAttnB_PFCmp_1",
-            "center": [
-                -5.574257425742573,
-                30.052805280528048,
-                24.306930693069305
-            ],
-            "size": 606
+            "center": null,
+            "size": null
         },
         "80": {
             "label": "17Networks_LH_LimbicB_OFC_1",
@@ -757,11 +561,11 @@
         "83": {
             "label": "17Networks_LH_LimbicB_OFC_4",
             "center": [
-                -19.248571428571424,
-                62.72857142857143,
-                -7.874285714285719
+                -19.268292682926827,
+                62.700143472022944,
+                -7.934002869440462
             ],
-            "size": 701
+            "size": 697
         },
         "84": {
             "label": "17Networks_LH_LimbicA_TempPole_1",
@@ -819,102 +623,66 @@
         },
         "90": {
             "label": "17Networks_LH_ContA_IPS_1",
-            "center": [
-                -33.2415458937198,
-                -66.01449275362319,
-                48.111111111111114
-            ],
-            "size": 416
+            "center": null,
+            "size": null
         },
         "91": {
             "label": "17Networks_LH_ContA_IPS_2",
-            "center": [
-                -44.797814207650276,
-                -41.53551912568307,
-                46.46448087431693
-            ],
-            "size": 366
+            "center": null,
+            "size": null
         },
         "92": {
             "label": "17Networks_LH_ContA_IPS_3",
-            "center": [
-                -29.483443708609272,
-                -58.23841059602648,
-                48.47682119205298
-            ],
-            "size": 157
+            "center": null,
+            "size": null
         },
         "93": {
             "label": "17Networks_LH_ContA_IPS_4",
-            "center": [
-                -33.72916666666667,
-                -48.390625,
-                47.06770833333333
-            ],
-            "size": 384
+            "center": null,
+            "size": null
         },
         "94": {
             "label": "17Networks_LH_ContA_PFCd_1",
-            "center": [
-                -27.016528925619838,
-                4.462809917355372,
-                56.008264462809905
-            ],
-            "size": 244
+            "center": null,
+            "size": null
         },
         "95": {
             "label": "17Networks_LH_ContA_PFClv_1",
             "center": [
-                -41.750708215297436,
-                41.09537299338999,
-                13.848914069877239
+                -40.77272727272728,
+                44.15909090909091,
+                3.2954545454545467
             ],
-            "size": 1059
+            "size": 88
         },
         "96": {
             "label": "17Networks_LH_ContA_PFCl_1",
             "center": [
-                -50.834724540901504,
-                7.268781302170282,
-                19.80300500834724
+                -53.55555555555554,
+                11.333333333333343,
+                3.555555555555557
             ],
-            "size": 599
+            "size": 12
         },
         "97": {
             "label": "17Networks_LH_ContA_PFCl_2",
-            "center": [
-                -44.69090909090909,
-                21.114049586776872,
-                24.885950413223142
-            ],
-            "size": 605
+            "center": null,
+            "size": null
         },
         "98": {
             "label": "17Networks_LH_ContA_PFCl_3",
-            "center": [
-                -41.50361445783133,
-                12.530120481927725,
-                33.69638554216867
-            ],
-            "size": 418
+            "center": null,
+            "size": null
         },
         "99": {
             "label": "17Networks_LH_ContA_PFCl_4",
-            "center": [
-                -48.92733564013841,
-                2.553633217993081,
-                37.5916955017301
-            ],
-            "size": 291
+            "center": null,
+            "size": null
         },
         "100": {
             "label": "17Networks_LH_ContA_Cingm_1",
-            "center": [
-                -3.2551724137931046,
-                6.455172413793093,
-                28.620689655172413
-            ],
-            "size": 148
+            "center": null,
+            "size": null
         },
         "101": {
             "label": "17Networks_LH_ContB_Temp_1",
@@ -927,156 +695,96 @@
         },
         "102": {
             "label": "17Networks_LH_ContB_IPL_1",
-            "center": [
-                -53.38647342995168,
-                -50.2463768115942,
-                44.9951690821256
-            ],
-            "size": 417
+            "center": null,
+            "size": null
         },
         "103": {
             "label": "17Networks_LH_ContB_IPL_2",
-            "center": [
-                -41.34693877551021,
-                -52.38775510204081,
-                47.94897959183673
-            ],
-            "size": 198
+            "center": null,
+            "size": null
         },
         "104": {
             "label": "17Networks_LH_ContB_PFClv_1",
             "center": [
-                -41.9742351046699,
-                49.03703703703704,
-                -6.038647342995176
+                -41.938411669367895,
+                49.04051863857376,
+                -6.11993517017828
             ],
-            "size": 621
+            "size": 617
         },
         "105": {
             "label": "17Networks_LH_ContB_PFClv_2",
             "center": [
-                -28.927007299270073,
-                56.642335766423344,
-                6.821167883211672
+                -28.03652968036529,
+                56.78538812785388,
+                0.8310502283105023
             ],
-            "size": 548
+            "size": 219
         },
         "106": {
             "label": "17Networks_LH_ContB_PFCmp_1",
-            "center": [
-                -3.74660633484163,
-                27.461538461538453,
-                47.22624434389141
-            ],
-            "size": 442
+            "center": null,
+            "size": null
         },
         "107": {
             "label": "17Networks_LH_ContC_pCun_1",
-            "center": [
-                -10.542986425339365,
-                -69.42986425339367,
-                30.723981900452486
-            ],
-            "size": 226
+            "center": null,
+            "size": null
         },
         "108": {
             "label": "17Networks_LH_ContC_pCun_2",
-            "center": [
-                -9.365558912386703,
-                -76.5619335347432,
-                44.07250755287009
-            ],
-            "size": 332
+            "center": null,
+            "size": null
         },
         "109": {
             "label": "17Networks_LH_ContC_pCun_3",
-            "center": [
-                -4.953020134228183,
-                -64.84563758389262,
-                52.36912751677852
-            ],
-            "size": 298
+            "center": null,
+            "size": null
         },
         "110": {
             "label": "17Networks_LH_ContC_Cingp_1",
-            "center": [
-                -4.707692307692312,
-                -27.84615384615384,
-                27.384615384615387
-            ],
-            "size": 195
+            "center": null,
+            "size": null
         },
         "111": {
             "label": "17Networks_LH_DefaultA_IPL_1",
-            "center": [
-                -45.805405405405395,
-                -66.01945945945945,
-                40.80864864864864
-            ],
-            "size": 928
+            "center": null,
+            "size": null
         },
         "112": {
             "label": "17Networks_LH_DefaultA_PFCd_1",
-            "center": [
-                -23.09189189189189,
-                31.556756756756755,
-                43.08108108108108
-            ],
-            "size": 370
+            "center": null,
+            "size": null
         },
         "113": {
             "label": "17Networks_LH_DefaultA_PFCd_2",
-            "center": [
-                -24.66105263157894,
-                19.00631578947369,
-                52.73263157894736
-            ],
-            "size": 476
+            "center": null,
+            "size": null
         },
         "114": {
             "label": "17Networks_LH_DefaultA_pCunPCC_1",
-            "center": [
-                -4.608247422680407,
-                -51.91752577319588,
-                16.061855670103085
-            ],
-            "size": 194
+            "center": null,
+            "size": null
         },
         "115": {
             "label": "17Networks_LH_DefaultA_pCunPCC_2",
-            "center": [
-                -5.581213307240702,
-                -56.340508806262235,
-                28.450097847358123
-            ],
-            "size": 511
+            "center": null,
+            "size": null
         },
         "116": {
             "label": "17Networks_LH_DefaultA_pCunPCC_3",
-            "center": [
-                -4.911602209944746,
-                -37.82872928176795,
-                35.60220994475138
-            ],
-            "size": 362
+            "center": null,
+            "size": null
         },
         "117": {
             "label": "17Networks_LH_DefaultA_pCunPCC_4",
-            "center": [
-                -2.723981900452486,
-                -16.705882352941174,
-                37.276018099547514
-            ],
-            "size": 221
+            "center": null,
+            "size": null
         },
         "118": {
             "label": "17Networks_LH_DefaultA_pCunPCC_5",
-            "center": [
-                -6.168260038240916,
-                -55.44550669216062,
-                41.35372848948374
-            ],
-            "size": 523
+            "center": null,
+            "size": null
         },
         "119": {
             "label": "17Networks_LH_DefaultA_PFCm_1",
@@ -1090,20 +798,20 @@
         "120": {
             "label": "17Networks_LH_DefaultA_PFCm_2",
             "center": [
-                -5.723270440251568,
-                59.67924528301887,
-                -1.1981132075471663
+                -5.4806378132118425,
+                58.42369020501138,
+                -5.936218678815493
             ],
-            "size": 636
+            "size": 439
         },
         "121": {
             "label": "17Networks_LH_DefaultA_PFCm_3",
             "center": [
-                -6.240650406504059,
-                44.38699186991869,
-                7.492682926829275
+                -5.585657370517936,
+                44.89243027888446,
+                1.1235059760956148
             ],
-            "size": 615
+            "size": 251
         },
         "122": {
             "label": "17Networks_LH_DefaultB_Temp_1",
@@ -1143,84 +851,52 @@
         },
         "126": {
             "label": "17Networks_LH_DefaultB_IPL_1",
-            "center": [
-                -45.55032119914347,
-                -60.989293361884364,
-                24.098501070663815
-            ],
-            "size": 467
+            "center": null,
+            "size": null
         },
         "127": {
             "label": "17Networks_LH_DefaultB_IPL_2",
-            "center": [
-                -57.14905149051489,
-                -54.25474254742548,
-                28.173441734417338
-            ],
-            "size": 369
+            "center": null,
+            "size": null
         },
         "128": {
             "label": "17Networks_LH_DefaultB_PFCd_1",
             "center": [
-                -17.931818181818187,
-                62.41233766233768,
-                19.214285714285708
+                -23.0,
+                68.0,
+                4.0
             ],
-            "size": 616
+            "size": 2
         },
         "129": {
             "label": "17Networks_LH_DefaultB_PFCd_2",
-            "center": [
-                -4.123076923076923,
-                50.15824175824176,
-                31.096703296703296
-            ],
-            "size": 911
+            "center": null,
+            "size": null
         },
         "130": {
             "label": "17Networks_LH_DefaultB_PFCd_3",
-            "center": [
-                -14.402877697841731,
-                45.73381294964028,
-                44.61870503597122
-            ],
-            "size": 556
+            "center": null,
+            "size": null
         },
         "131": {
             "label": "17Networks_LH_DefaultB_PFCd_4",
-            "center": [
-                -12.32569974554707,
-                24.427480916030532,
-                61.03816793893131
-            ],
-            "size": 393
+            "center": null,
+            "size": null
         },
         "132": {
             "label": "17Networks_LH_DefaultB_PFCd_5",
-            "center": [
-                -6.410596026490069,
-                10.083885209713031,
-                63.87637969094922
-            ],
-            "size": 454
+            "center": null,
+            "size": null
         },
         "133": {
             "label": "17Networks_LH_DefaultB_PFCl_1",
-            "center": [
-                -39.39424703891709,
-                18.890016920473784,
-                49.91539763113367
-            ],
-            "size": 595
+            "center": null,
+            "size": null
         },
         "134": {
             "label": "17Networks_LH_DefaultB_PFCl_2",
-            "center": [
-                -41.74285714285713,
-                6.76666666666668,
-                48.900000000000006
-            ],
-            "size": 421
+            "center": null,
+            "size": null
         },
         "135": {
             "label": "17Networks_LH_DefaultB_PFCv_1",
@@ -1252,47 +928,39 @@
         "138": {
             "label": "17Networks_LH_DefaultB_PFCv_4",
             "center": [
-                -48.32487309644671,
-                28.53807106598984,
-                1.2588832487309674
+                -48.32826747720364,
+                28.899696048632222,
+                0.15197568389058347
             ],
-            "size": 394
+            "size": 329
         },
         "139": {
             "label": "17Networks_LH_DefaultB_PFCv_5",
             "center": [
-                -52.99607843137255,
-                19.46666666666667,
-                11.79607843137255
+                -50.934782608695656,
+                17.434782608695656,
+                1.2391304347826093
             ],
-            "size": 511
+            "size": 92
         },
         "140": {
             "label": "17Networks_LH_DefaultC_IPL_1",
-            "center": [
-                -37.72727272727272,
-                -80.44405594405595,
-                32.68531468531468
-            ],
-            "size": 574
+            "center": null,
+            "size": null
         },
         "141": {
             "label": "17Networks_LH_DefaultC_Rsp_1",
             "center": [
-                -10.824644549763036,
-                -50.60663507109004,
-                5.9715639810426495
+                -10.969230769230762,
+                -49.07692307692308,
+                4.030769230769238
             ],
-            "size": 212
+            "size": 131
         },
         "142": {
             "label": "17Networks_LH_DefaultC_Rsp_2",
-            "center": [
-                -12.868327402135236,
-                -60.654804270462634,
-                18.4982206405694
-            ],
-            "size": 281
+            "center": null,
+            "size": null
         },
         "143": {
             "label": "17Networks_LH_DefaultC_PHC_1",
@@ -1342,29 +1010,29 @@
         "148": {
             "label": "17Networks_LH_TempPar_3",
             "center": [
-                -59.841584158415856,
-                -27.663366336633658,
-                2.1782178217821837
+                -59.30656934306569,
+                -27.379562043795616,
+                1.598540145985396
             ],
-            "size": 304
+            "size": 274
         },
         "149": {
             "label": "17Networks_LH_TempPar_4",
             "center": [
-                -56.47200000000001,
-                -44.19200000000001,
-                8.823999999999998
+                -53.31937172774869,
+                -42.52356020942409,
+                3.874345549738223
             ],
-            "size": 500
+            "size": 191
         },
         "150": {
             "label": "17Networks_LH_TempPar_5",
             "center": [
-                -54.8901098901099,
-                -53.472527472527474,
-                12.285714285714292
+                -60.428571428571416,
+                -51.89285714285714,
+                5.035714285714292
             ],
-            "size": 364
+            "size": 56
         },
         "151": {
             "label": "17Networks_RH_VisCent_ExStr_1",
@@ -1414,56 +1082,52 @@
         "156": {
             "label": "17Networks_RH_VisCent_ExStr_6",
             "center": [
-                23.657430730478595,
-                -94.75314861460957,
-                -8.795969773299745
+                23.659898477157356,
+                -94.70304568527919,
+                -8.923857868020306
             ],
-            "size": 796
+            "size": 790
         },
         "157": {
             "label": "17Networks_RH_VisCent_Striate_1",
             "center": [
-                9.720101781170484,
-                -94.46310432569975,
-                2.575063613231549
+                10.208201892744484,
+                -94.77602523659306,
+                1.0599369085173578
             ],
-            "size": 396
+            "size": 320
         },
         "158": {
             "label": "17Networks_RH_VisCent_ExStr_7",
             "center": [
-                35.38592750533049,
-                -89.2452025586354,
-                1.3603411513859243
+                35.815384615384616,
+                -88.60512820512821,
+                -0.37948717948718524
             ],
-            "size": 469
+            "size": 390
         },
         "159": {
             "label": "17Networks_RH_VisCent_ExStr_8",
-            "center": [
-                18.047872340425528,
-                -97.4627659574468,
-                14.63829787234043
-            ],
-            "size": 376
+            "center": null,
+            "size": null
         },
         "160": {
             "label": "17Networks_RH_VisCent_ExStr_9",
             "center": [
-                43.55130434782609,
-                -78.96000000000001,
-                10.34434782608696
+                43.24096385542168,
+                -79.20481927710844,
+                3.819277108433738
             ],
-            "size": 575
+            "size": 166
         },
         "161": {
             "label": "17Networks_RH_VisCent_ExStr_10",
             "center": [
-                27.23953098827471,
-                -85.79899497487438,
-                23.293132328308204
+                30.0,
+                -83.0,
+                6.0
             ],
-            "size": 598
+            "size": 2
         },
         "162": {
             "label": "17Networks_RH_VisPeri_ExStrInf_1",
@@ -1477,290 +1141,202 @@
         "163": {
             "label": "17Networks_RH_VisPeri_ExStrInf_2",
             "center": [
-                9.404530744336569,
-                -71.58576051779934,
-                -4.5566343042071225
+                9.422077922077918,
+                -71.5974025974026,
+                -4.597402597402592
             ],
-            "size": 312
+            "size": 311
         },
         "164": {
             "label": "17Networks_RH_VisPeri_ExStrInf_3",
             "center": [
-                12.84457478005865,
-                -57.56011730205279,
-                -3.395894428152488
+                12.870588235294122,
+                -57.55294117647058,
+                -3.4294117647058897
             ],
-            "size": 341
+            "size": 340
         },
         "165": {
             "label": "17Networks_RH_VisPeri_ExStrInf_4",
             "center": [
-                17.21192052980132,
-                -45.284768211920536,
-                -1.2052980132450273
+                17.16891891891892,
+                -45.14189189189189,
+                -1.3986486486486456
             ],
-            "size": 305
+            "size": 297
         },
         "166": {
             "label": "17Networks_RH_VisPeri_StriCal_1",
             "center": [
-                8.90519877675841,
-                -73.75840978593271,
-                8.159021406727831
+                8.452380952380949,
+                -76.13492063492063,
+                3.69047619047619
             ],
-            "size": 655
+            "size": 252
         },
         "167": {
             "label": "17Networks_RH_VisPeri_StriCal_2",
             "center": [
-                21.449591280653948,
-                -59.885558583106274,
-                7.084468664850135
+                22.009900990099013,
+                -59.56435643564356,
+                4.198019801980195
             ],
-            "size": 373
+            "size": 206
         },
         "168": {
             "label": "17Networks_RH_VisPeri_ExStrSup_1",
-            "center": [
-                8.932126696832583,
-                -87.526395173454,
-                24.3499245852187
-            ],
-            "size": 665
+            "center": null,
+            "size": null
         },
         "169": {
             "label": "17Networks_RH_VisPeri_ExStrSup_2",
-            "center": [
-                12.634315424610051,
-                -72.3466204506066,
-                26.121317157712298
-            ],
-            "size": 579
+            "center": null,
+            "size": null
         },
         "170": {
             "label": "17Networks_RH_VisPeri_ExStrSup_3",
-            "center": [
-                20.149100257069406,
-                -83.68123393316196,
-                41.31619537275064
-            ],
-            "size": 390
+            "center": null,
+            "size": null
         },
         "171": {
             "label": "17Networks_RH_SomMotA_1",
-            "center": [
-                51.78409090909091,
-                -13.0,
-                49.63636363636364
-            ],
-            "size": 176
+            "center": null,
+            "size": null
         },
         "172": {
             "label": "17Networks_RH_SomMotA_2",
-            "center": [
-                45.083969465648856,
-                -10.25954198473282,
-                47.98473282442748
-            ],
-            "size": 262
+            "center": null,
+            "size": null
         },
         "173": {
             "label": "17Networks_RH_SomMotA_3",
-            "center": [
-                49.72923076923077,
-                -24.400000000000006,
-                53.85230769230769
-            ],
-            "size": 327
+            "center": null,
+            "size": null
         },
         "174": {
             "label": "17Networks_RH_SomMotA_4",
-            "center": [
-                7.167919799498748,
-                -10.872180451127818,
-                50.36591478696742
-            ],
-            "size": 399
+            "center": null,
+            "size": null
         },
         "175": {
             "label": "17Networks_RH_SomMotA_5",
-            "center": [
-                38.997067448680355,
-                -24.111436950146626,
-                57.747800586510266
-            ],
-            "size": 341
+            "center": null,
+            "size": null
         },
         "176": {
             "label": "17Networks_RH_SomMotA_6",
-            "center": [
-                33.69387755102041,
-                -34.05102040816327,
-                62.061224489795904
-            ],
-            "size": 196
+            "center": null,
+            "size": null
         },
         "177": {
             "label": "17Networks_RH_SomMotA_7",
-            "center": [
-                35.99012345679012,
-                -17.95061728395062,
-                63.05679012345678
-            ],
-            "size": 406
+            "center": null,
+            "size": null
         },
         "178": {
             "label": "17Networks_RH_SomMotA_8",
-            "center": [
-                8.827160493827165,
-                -40.46913580246914,
-                64.59259259259258
-            ],
-            "size": 162
+            "center": null,
+            "size": null
         },
         "179": {
             "label": "17Networks_RH_SomMotA_9",
-            "center": [
-                5.017013232514174,
-                -23.38374291115312,
-                65.32325141776937
-            ],
-            "size": 529
+            "center": null,
+            "size": null
         },
         "180": {
             "label": "17Networks_RH_SomMotA_10",
-            "center": [
-                23.921052631578945,
-                -28.44736842105263,
-                66.56578947368422
-            ],
-            "size": 152
+            "center": null,
+            "size": null
         },
         "181": {
             "label": "17Networks_RH_SomMotA_11",
-            "center": [
-                22.699386503067487,
-                -34.96932515337423,
-                69.61963190184048
-            ],
-            "size": 163
+            "center": null,
+            "size": null
         },
         "182": {
             "label": "17Networks_RH_SomMotA_12",
-            "center": [
-                21.5223880597015,
-                -23.791044776119406,
-                67.91044776119404
-            ],
-            "size": 134
+            "center": null,
+            "size": null
         },
         "183": {
             "label": "17Networks_RH_SomMotA_13",
-            "center": [
-                17.743209876543204,
-                -10.217283950617286,
-                70.63703703703703
-            ],
-            "size": 406
+            "center": null,
+            "size": null
         },
         "184": {
             "label": "17Networks_RH_SomMotA_14",
-            "center": [
-                11.638554216867476,
-                -36.95180722891567,
-                76.3855421686747
-            ],
-            "size": 168
+            "center": null,
+            "size": null
         },
         "185": {
             "label": "17Networks_RH_SomMotA_15",
-            "center": [
-                13.080808080808083,
-                -28.848484848484844,
-                72.77777777777777
-            ],
-            "size": 198
+            "center": null,
+            "size": null
         },
         "186": {
             "label": "17Networks_RH_SomMotB_Aud_1",
             "center": [
-                52.580052493438316,
-                -9.530183727034114,
-                2.580052493438316
+                54.07797270955166,
+                -5.6881091617933635,
+                -0.25730994152047515
             ],
-            "size": 763
+            "size": 515
         },
         "187": {
             "label": "17Networks_RH_SomMotB_S2_1",
             "center": [
-                35.2,
-                -20.771428571428572,
-                14.05714285714285
+                34.0,
+                -22.0,
+                4.0
             ],
-            "size": 140
+            "size": 1
         },
         "188": {
             "label": "17Networks_RH_SomMotB_S2_2",
             "center": [
-                40.18532818532819,
-                -9.714285714285708,
-                14.640926640926637
+                38.0,
+                -8.0,
+                4.0
             ],
-            "size": 259
+            "size": 1
         },
         "189": {
             "label": "17Networks_RH_SomMotB_Aud_2",
             "center": [
-                60.546916890080425,
-                -24.42359249329759,
-                11.09919571045576
+                61.33333333333333,
+                -18.33333333333333,
+                4.0
             ],
-            "size": 373
+            "size": 9
         },
         "190": {
             "label": "17Networks_RH_SomMotB_S2_3",
-            "center": [
-                41.80782918149466,
-                -28.227758007117444,
-                18.106761565836294
-            ],
-            "size": 282
+            "center": null,
+            "size": null
         },
         "191": {
             "label": "17Networks_RH_SomMotB_S2_4",
             "center": [
-                59.33579335793358,
-                0.4723247232472261,
-                11.380073800738003
+                61.33333333333333,
+                2.666666666666657,
+                4.0
             ],
-            "size": 272
+            "size": 4
         },
         "192": {
             "label": "17Networks_RH_SomMotB_S2_5",
-            "center": [
-                55.02659574468085,
-                -13.72872340425532,
-                15.484042553191486
-            ],
-            "size": 376
+            "center": null,
+            "size": null
         },
         "193": {
             "label": "17Networks_RH_SomMotB_Cent_1",
-            "center": [
-                60.92872570194385,
-                -3.4125269978401747,
-                25.857451403887694
-            ],
-            "size": 464
+            "center": null,
+            "size": null
         },
         "194": {
             "label": "17Networks_RH_SomMotB_Cent_2",
-            "center": [
-                51.47157190635451,
-                -7.478260869565219,
-                36.535117056856194
-            ],
-            "size": 301
+            "center": null,
+            "size": null
         },
         "195": {
             "label": "17Networks_RH_DorsAttnA_TempOcc_1",
@@ -1774,182 +1350,110 @@
         "196": {
             "label": "17Networks_RH_DorsAttnA_ParOcc_1",
             "center": [
-                49.06944444444444,
-                -64.10833333333333,
-                4.397222222222226
+                49.04938271604938,
+                -64.31687242798354,
+                1.312757201646093
             ],
-            "size": 720
+            "size": 486
         },
         "197": {
             "label": "17Networks_RH_DorsAttnA_ParOcc_2",
             "center": [
-                53.21012658227848,
-                -56.481012658227854,
-                13.549367088607596
+                57.25,
+                -55.25,
+                5.450000000000003
             ],
-            "size": 396
+            "size": 41
         },
         "198": {
             "label": "17Networks_RH_DorsAttnA_ParOcc_3",
-            "center": [
-                35.256198347107436,
-                -77.8732782369146,
-                25.48760330578513
-            ],
-            "size": 365
+            "center": null,
+            "size": null
         },
         "199": {
             "label": "17Networks_RH_DorsAttnA_SPL_1",
-            "center": [
-                27.77955911823647,
-                -67.65531062124248,
-                42.73747494989979
-            ],
-            "size": 500
+            "center": null,
+            "size": null
         },
         "200": {
             "label": "17Networks_RH_DorsAttnA_SPL_2",
-            "center": [
-                16.468330134357004,
-                -71.7274472168906,
-                54.076775431861805
-            ],
-            "size": 524
+            "center": null,
+            "size": null
         },
         "201": {
             "label": "17Networks_RH_DorsAttnA_SPL_3",
-            "center": [
-                34.11397058823529,
-                -50.06617647058823,
-                52.0625
-            ],
-            "size": 544
+            "center": null,
+            "size": null
         },
         "202": {
             "label": "17Networks_RH_DorsAttnA_SPL_4",
-            "center": [
-                26.579055441478438,
-                -59.03080082135523,
-                61.092402464065714
-            ],
-            "size": 487
+            "center": null,
+            "size": null
         },
         "203": {
             "label": "17Networks_RH_DorsAttnB_PostC_1",
-            "center": [
-                58.71129707112971,
-                -13.974895397489547,
-                35.129707112970706
-            ],
-            "size": 239
+            "center": null,
+            "size": null
         },
         "204": {
             "label": "17Networks_RH_DorsAttnB_PostC_2",
-            "center": [
-                53.64,
-                -23.864000000000004,
-                42.855999999999995
-            ],
-            "size": 254
+            "center": null,
+            "size": null
         },
         "205": {
             "label": "17Networks_RH_DorsAttnB_PostC_3",
-            "center": [
-                38.88652482269504,
-                -32.31914893617021,
-                46.36879432624113
-            ],
-            "size": 285
+            "center": null,
+            "size": null
         },
         "206": {
             "label": "17Networks_RH_DorsAttnB_PostC_4",
-            "center": [
-                33.28338762214984,
-                -41.38110749185668,
-                63.36807817589576
-            ],
-            "size": 308
+            "center": null,
+            "size": null
         },
         "207": {
             "label": "17Networks_RH_DorsAttnB_PostC_5",
-            "center": [
-                8.57622377622377,
-                -55.75944055944056,
-                61.448951048951045
-            ],
-            "size": 715
+            "center": null,
+            "size": null
         },
         "208": {
             "label": "17Networks_RH_DorsAttnB_PostC_6",
-            "center": [
-                20.788091068301227,
-                -48.45884413309983,
-                70.40980735551665
-            ],
-            "size": 571
+            "center": null,
+            "size": null
         },
         "209": {
             "label": "17Networks_RH_DorsAttnB_FEF_1",
-            "center": [
-                35.04554455445545,
-                -3.778217821782178,
-                52.27722772277228
-            ],
-            "size": 506
+            "center": null,
+            "size": null
         },
         "210": {
             "label": "17Networks_RH_DorsAttnB_FEF_2",
-            "center": [
-                26.482352941176472,
-                -8.39411764705882,
-                62.0529411764706
-            ],
-            "size": 341
+            "center": null,
+            "size": null
         },
         "211": {
             "label": "17Networks_RH_SalVentAttnA_ParOper_1",
-            "center": [
-                64.09154929577466,
-                -33.20422535211267,
-                22.373239436619713
-            ],
-            "size": 284
+            "center": null,
+            "size": null
         },
         "212": {
             "label": "17Networks_RH_SalVentAttnA_ParOper_2",
-            "center": [
-                52.31872509960159,
-                -28.964143426294825,
-                25.81673306772909
-            ],
-            "size": 254
+            "center": null,
+            "size": null
         },
         "213": {
             "label": "17Networks_RH_SalVentAttnA_ParOper_3",
-            "center": [
-                62.22096317280453,
-                -19.784702549575073,
-                24.283286118980172
-            ],
-            "size": 353
+            "center": null,
+            "size": null
         },
         "214": {
             "label": "17Networks_RH_SalVentAttnA_ParOper_4",
-            "center": [
-                62.87108013937282,
-                -25.742160278745644,
-                39.05226480836237
-            ],
-            "size": 289
+            "center": null,
+            "size": null
         },
         "215": {
             "label": "17Networks_RH_SalVentAttnA_PrC_1",
-            "center": [
-                51.02716049382716,
-                3.688888888888897,
-                40.266666666666666
-            ],
-            "size": 406
+            "center": null,
+            "size": null
         },
         "216": {
             "label": "17Networks_RH_SalVentAttnA_Ins_1",
@@ -1963,119 +1467,83 @@
         "217": {
             "label": "17Networks_RH_SalVentAttnA_Ins_2",
             "center": [
-                40.425414364640886,
-                -11.154696132596683,
-                -1.8508287292817727
+                40.60897435897436,
+                -10.839743589743591,
+                -3.288461538461533
             ],
-            "size": 362
+            "size": 312
         },
         "218": {
             "label": "17Networks_RH_SalVentAttnA_Ins_3",
             "center": [
-                38.83606557377049,
-                4.333333333333343,
-                6.62841530054645
+                40.028571428571425,
+                4.228571428571428,
+                0.7857142857142918
             ],
-            "size": 366
+            "size": 140
         },
         "219": {
             "label": "17Networks_RH_SalVentAttnA_FrOper_1",
             "center": [
-                50.76219512195122,
-                5.189024390243901,
-                3.7621951219512226
+                50.86829268292683,
+                6.663414634146335,
+                1.2975609756097555
             ],
-            "size": 328
+            "size": 205
         },
         "220": {
             "label": "17Networks_RH_SalVentAttnA_FrMed_1",
-            "center": [
-                7.554609929078012,
-                9.066666666666663,
-                41.0241134751773
-            ],
-            "size": 706
+            "center": null,
+            "size": null
         },
         "221": {
             "label": "17Networks_RH_SalVentAttnA_ParMed_1",
-            "center": [
-                7.470588235294116,
-                -15.39411764705882,
-                39.90588235294118
-            ],
-            "size": 340
+            "center": null,
+            "size": null
         },
         "222": {
             "label": "17Networks_RH_SalVentAttnA_ParMed_2",
-            "center": [
-                10.994535519125677,
-                -35.72677595628416,
-                44.5792349726776
-            ],
-            "size": 366
+            "center": null,
+            "size": null
         },
         "223": {
             "label": "17Networks_RH_SalVentAttnA_ParMed_3",
-            "center": [
-                10.790123456790127,
-                -35.440329218106996,
-                52.73251028806584
-            ],
-            "size": 243
+            "center": null,
+            "size": null
         },
         "224": {
             "label": "17Networks_RH_SalVentAttnA_FrMed_2",
-            "center": [
-                6.619385342789599,
-                0.10401891252955409,
-                63.97635933806146
-            ],
-            "size": 423
+            "center": null,
+            "size": null
         },
         "225": {
             "label": "17Networks_RH_SalVentAttnA_FrMed_3",
-            "center": [
-                16.21459227467811,
-                6.274678111587974,
-                69.38197424892704
-            ],
-            "size": 233
+            "center": null,
+            "size": null
         },
         "226": {
             "label": "17Networks_RH_SalVentAttnB_IPL_1",
-            "center": [
-                61.76,
-                -37.785,
-                37.685
-            ],
-            "size": 400
+            "center": null,
+            "size": null
         },
         "227": {
             "label": "17Networks_RH_SalVentAttnB_PFClv_1",
             "center": [
-                43.84332925336597,
-                43.840881272949815,
-                10.903304773561814
+                45.43646408839779,
+                43.4364640883978,
+                1.6464088397789993
             ],
-            "size": 818
+            "size": 181
         },
         "228": {
             "label": "17Networks_RH_SalVentAttnB_PFCl_1",
-            "center": [
-                34.8504854368932,
-                44.776699029126206,
-                27.071844660194174
-            ],
-            "size": 515
+            "center": null,
+            "size": null
         },
         "229": {
             "label": "17Networks_RH_SalVentAttnB_PFCl_2",
-            "center": [
-                25.778175313059037,
-                50.55098389982112,
-                27.42754919499106
-            ],
-            "size": 559
+            "center": null,
+            "size": null
         },
         "230": {
             "label": "17Networks_RH_SalVentAttnB_Ins_1",
@@ -2089,29 +1557,21 @@
         "231": {
             "label": "17Networks_RH_SalVentAttnB_Ins_2",
             "center": [
-                37.805054151624546,
-                21.01083032490976,
-                3.3249097472924234
+                38.08797653958944,
+                21.337243401759537,
+                0.3167155425219903
             ],
-            "size": 558
+            "size": 345
         },
         "232": {
             "label": "17Networks_RH_SalVentAttnB_PFCmp_1",
-            "center": [
-                7.2975609756097555,
-                30.426016260162612,
-                27.69756097560976
-            ],
-            "size": 615
+            "center": null,
+            "size": null
         },
         "233": {
             "label": "17Networks_RH_SalVentAttnB_PFCmp_2",
-            "center": [
-                4.986928104575156,
-                19.437908496732035,
-                53.26143790849673
-            ],
-            "size": 306
+            "center": null,
+            "size": null
         },
         "234": {
             "label": "17Networks_RH_LimbicB_OFC_1",
@@ -2152,11 +1612,11 @@
         "238": {
             "label": "17Networks_RH_LimbicB_OFC_5",
             "center": [
-                7.392931392931388,
-                64.11642411642413,
-                -6.469854469854468
+                7.236607142857139,
+                63.68303571428572,
+                -7.482142857142861
             ],
-            "size": 481
+            "size": 448
         },
         "239": {
             "label": "17Networks_RH_LimbicA_TempPole_1",
@@ -2223,84 +1683,52 @@
         },
         "246": {
             "label": "17Networks_RH_ContA_IPS_1",
-            "center": [
-                34.57420924574209,
-                -69.98053527980535,
-                44.90997566909975
-            ],
-            "size": 411
+            "center": null,
+            "size": null
         },
         "247": {
             "label": "17Networks_RH_ContA_IPS_2",
-            "center": [
-                51.6751269035533,
-                -34.48730964467005,
-                51.27918781725889
-            ],
-            "size": 199
+            "center": null,
+            "size": null
         },
         "248": {
             "label": "17Networks_RH_ContA_IPS_3",
-            "center": [
-                40.73214285714286,
-                -40.63095238095238,
-                46.61309523809524
-            ],
-            "size": 338
+            "center": null,
+            "size": null
         },
         "249": {
             "label": "17Networks_RH_ContA_PFCd_1",
-            "center": [
-                24.927308447937136,
-                8.066797642436143,
-                58.196463654223976
-            ],
-            "size": 512
+            "center": null,
+            "size": null
         },
         "250": {
             "label": "17Networks_RH_ContA_PFCl_1",
             "center": [
-                53.356962025316456,
-                13.43291139240506,
-                14.273417721518996
+                53.75757575757576,
+                13.575757575757564,
+                1.5151515151515156
             ],
-            "size": 395
+            "size": 33
         },
         "251": {
             "label": "17Networks_RH_ContA_PFCl_2",
-            "center": [
-                47.863063063063066,
-                30.403603603603614,
-                21.272072072072078
-            ],
-            "size": 555
+            "center": null,
+            "size": null
         },
         "252": {
             "label": "17Networks_RH_ContA_PFCl_3",
-            "center": [
-                49.733333333333334,
-                8.229885057471279,
-                25.227586206896547
-            ],
-            "size": 435
+            "center": null,
+            "size": null
         },
         "253": {
             "label": "17Networks_RH_ContA_PFCl_4",
-            "center": [
-                41.595876288659795,
-                14.680412371134025,
-                30.008247422680412
-            ],
-            "size": 485
+            "center": null,
+            "size": null
         },
         "254": {
             "label": "17Networks_RH_ContA_Cingm_1",
-            "center": [
-                4.766917293233078,
-                1.127819548872182,
-                30.285714285714292
-            ],
-            "size": 133
+            "center": null,
+            "size": null
         },
         "255": {
             "label": "17Networks_RH_ContB_Temp_1",
@@ -2313,57 +1741,33 @@
         },
         "256": {
             "label": "17Networks_RH_ContB_IPL_1",
-            "center": [
-                55.28547008547009,
-                -51.982905982905976,
-                41.3059829059829
-            ],
-            "size": 587
+            "center": null,
+            "size": null
         },
         "257": {
             "label": "17Networks_RH_ContB_IPL_2",
-            "center": [
-                52.90625,
-                -41.8625,
-                48.25
-            ],
-            "size": 320
+            "center": null,
+            "size": null
         },
         "258": {
             "label": "17Networks_RH_ContB_IPL_3",
-            "center": [
-                41.28888888888889,
-                -54.51358024691358,
-                48.29629629629629
-            ],
-            "size": 405
+            "center": null,
+            "size": null
         },
         "259": {
             "label": "17Networks_RH_ContB_PFCld_1",
-            "center": [
-                39.156398104265406,
-                33.46919431279622,
-                37.8909952606635
-            ],
-            "size": 423
+            "center": null,
+            "size": null
         },
         "260": {
             "label": "17Networks_RH_ContB_PFCld_2",
-            "center": [
-                43.30034722222222,
-                15.28125,
-                47.04166666666667
-            ],
-            "size": 1153
+            "center": null,
+            "size": null
         },
         "261": {
             "label": "17Networks_RH_ContB_PFCld_3",
-            "center": [
-                30.425925925925924,
-                17.320987654320987,
-                52.70370370370371
-            ],
-            "size": 325
+            "center": null,
+            "size": null
         },
         "262": {
             "label": "17Networks_RH_ContB_PFClv_1",
@@ -2377,11 +1781,11 @@
         "263": {
             "label": "17Networks_RH_ContB_PFClv_2",
             "center": [
-                22.298507462686572,
-                63.01119402985074,
-                -6.794776119402982
+                22.291115311909266,
+                62.967863894139896,
+                -6.96408317580341
             ],
-            "size": 537
+            "size": 530
         },
         "264": {
             "label": "17Networks_RH_ContB_PFClv_3",
@@ -2395,56 +1799,36 @@
         "265": {
             "label": "17Networks_RH_ContB_PFClv_4",
             "center": [
-                30.207874015748033,
-                57.118110236220474,
-                6.680314960629914
+                29.044176706827308,
+                57.13253012048193,
+                0.5943775100401609
             ],
-            "size": 635
+            "size": 249
         },
         "266": {
             "label": "17Networks_RH_ContB_PFCmp_1",
-            "center": [
-                4.86725663716814,
-                40.1637168141593,
-                43.26106194690266
-            ],
-            "size": 452
+            "center": null,
+            "size": null
         },
         "267": {
             "label": "17Networks_RH_ContC_pCun_1",
-            "center": [
-                13.995841995842,
-                -70.12058212058213,
-                37.05197505197505
-            ],
-            "size": 482
+            "center": null,
+            "size": null
         },
         "268": {
             "label": "17Networks_RH_ContC_pCun_2",
-            "center": [
-                7.362068965517238,
-                -50.04310344827586,
-                44.36206896551724
-            ],
-            "size": 232
+            "center": null,
+            "size": null
         },
         "269": {
             "label": "17Networks_RH_ContC_pCun_3",
-            "center": [
-                5.663230240549822,
-                -66.31615120274914,
-                47.37457044673539
-            ],
-            "size": 291
+            "center": null,
+            "size": null
         },
         "270": {
             "label": "17Networks_RH_ContC_Cingp_1",
-            "center": [
-                6.0,
-                -28.0,
-                27.61206896551724
-            ],
-            "size": 232
+            "center": null,
+            "size": null
         },
         "271": {
             "label": "17Networks_RH_DefaultA_Temp_1",
@@ -2457,57 +1841,33 @@
         },
         "272": {
             "label": "17Networks_RH_DefaultA_IPL_1",
-            "center": [
-                53.0,
-                -52.11739130434782,
-                24.39565217391305
-            ],
-            "size": 460
+            "center": null,
+            "size": null
         },
         "273": {
             "label": "17Networks_RH_DefaultA_IPL_2",
-            "center": [
-                46.88936170212766,
-                -64.98297872340426,
-                41.94468085106382
-            ],
-            "size": 471
+            "center": null,
+            "size": null
         },
         "274": {
             "label": "17Networks_RH_DefaultA_PFCd_1",
-            "center": [
-                25.610194902548727,
-                29.895052473763116,
-                44.79160419790105
-            ],
-            "size": 667
+            "center": null,
+            "size": null
         },
         "275": {
             "label": "17Networks_RH_DefaultA_pCunPCC_1",
-            "center": [
-                5.575757575757578,
-                -54.25454545454545,
-                23.91515151515152
-            ],
-            "size": 331
+            "center": null,
+            "size": null
         },
         "276": {
             "label": "17Networks_RH_DefaultA_pCunPCC_2",
-            "center": [
-                6.289044289044284,
-                -36.77855477855478,
-                35.58041958041957
-            ],
-            "size": 429
+            "center": null,
+            "size": null
         },
         "277": {
             "label": "17Networks_RH_DefaultA_pCunPCC_3",
-            "center": [
-                7.48684210526315,
-                -57.493421052631575,
-                35.098684210526315
-            ],
-            "size": 305
+            "center": null,
+            "size": null
         },
         "278": {
             "label": "17Networks_RH_DefaultA_PFCm_1",
@@ -2521,38 +1881,34 @@
         "279": {
             "label": "17Networks_RH_DefaultA_PFCm_2",
             "center": [
-                8.186379928315418,
-                42.713261648745515,
-                5.118279569892479
+                7.832214765100673,
+                43.25503355704697,
+                0.10738255033557209
             ],
-            "size": 558
+            "size": 298
         },
         "280": {
             "label": "17Networks_RH_DefaultA_PFCm_3",
             "center": [
-                17.708154506437765,
-                64.862660944206,
-                15.87982832618026
+                16.0,
+                65.19999999999999,
+                3.799999999999997
             ],
-            "size": 466
+            "size": 10
         },
         "281": {
             "label": "17Networks_RH_DefaultA_PFCm_4",
             "center": [
-                6.636574074074076,
-                55.41898148148147,
-                17.8125
+                7.756097560975604,
+                56.29268292682926,
+                2.9512195121951237
             ],
-            "size": 864
+            "size": 82
         },
         "282": {
             "label": "17Networks_RH_DefaultA_PFCm_5",
-            "center": [
-                5.76315789473685,
-                24.59210526315789,
-                18.19736842105263
-            ],
-            "size": 152
+            "center": null,
+            "size": null
         },
         "283": {
             "label": "17Networks_RH_DefaultB_Temp_1",
@@ -2574,21 +1930,13 @@
         },
         "285": {
             "label": "17Networks_RH_DefaultB_PFCd_1",
-            "center": [
-                15.516853932584269,
-                48.84269662921349,
-                41.28932584269663
-            ],
-            "size": 712
+            "center": null,
+            "size": null
         },
         "286": {
             "label": "17Networks_RH_DefaultB_PFCd_2",
-            "center": [
-                13.592920353982294,
-                24.3575221238938,
-                60.49203539823009
-            ],
-            "size": 566
+            "center": null,
+            "size": null
         },
         "287": {
             "label": "17Networks_RH_DefaultB_PFCv_1",
@@ -2602,47 +1950,39 @@
         "288": {
             "label": "17Networks_RH_DefaultB_PFCv_2",
             "center": [
-                49.0633608815427,
-                31.790633608815426,
-                -4.650137741046834
+                49.06077348066299,
+                31.790055248618785,
+                -4.679558011049721
             ],
-            "size": 363
+            "size": 362
         },
         "289": {
             "label": "17Networks_RH_DefaultB_PFCv_3",
             "center": [
-                53.6140350877193,
-                24.175438596491233,
-                7.126705653021446
+                51.76190476190476,
+                23.657142857142844,
+                1.3428571428571416
             ],
-            "size": 513
+            "size": 210
         },
         "290": {
             "label": "17Networks_RH_DefaultC_IPL_1",
-            "center": [
-                47.352862849533956,
-                -69.39813581890812,
-                25.925432756324895
-            ],
-            "size": 751
+            "center": null,
+            "size": null
         },
         "291": {
             "label": "17Networks_RH_DefaultC_Rsp_1",
             "center": [
-                10.106060606060609,
-                -50.64393939393939,
-                9.99242424242425
+                10.645161290322577,
+                -47.2258064516129,
+                4.806451612903231
             ],
-            "size": 264
+            "size": 62
         },
         "292": {
             "label": "17Networks_RH_DefaultC_Rsp_2",
-            "center": [
-                16.007905138339922,
-                -58.5296442687747,
-                20.66403162055336
-            ],
-            "size": 254
+            "center": null,
+            "size": null
         },
         "293": {
             "label": "17Networks_RH_DefaultC_PHC_1",
@@ -2674,47 +2014,43 @@
         "296": {
             "label": "17Networks_RH_TempPar_3",
             "center": [
-                62.48379052369077,
-                -18.907730673316706,
-                -0.32418952618454
+                62.177545691906005,
+                -18.731070496083547,
+                -0.6736292428198425
             ],
-            "size": 401
+            "size": 383
         },
         "297": {
             "label": "17Networks_RH_TempPar_4",
             "center": [
-                50.59239130434783,
-                -31.929347826086953,
-                1.0815217391304373
+                50.69714285714286,
+                -31.760000000000005,
+                0.7142857142857082
             ],
-            "size": 374
+            "size": 358
         },
         "298": {
             "label": "17Networks_RH_TempPar_5",
             "center": [
-                57.002237136465325,
-                -45.34675615212528,
-                9.114093959731548
+                59.24050632911393,
+                -45.36708860759494,
+                3.936708860759495
             ],
-            "size": 447
+            "size": 158
         },
         "299": {
             "label": "17Networks_RH_TempPar_6",
             "center": [
-                59.83011583011583,
-                -36.97297297297297,
-                11.667953667953668
+                62.58064516129032,
+                -33.54838709677419,
+                5.483870967741936
             ],
-            "size": 260
+            "size": 31
         },
         "300": {
             "label": "17Networks_RH_TempPar_7",
-            "center": [
-                55.6173285198556,
-                -42.95306859205776,
-                25.263537906137188
-            ],
-            "size": 277
+            "center": null,
+            "size": null
         }
     }
 }

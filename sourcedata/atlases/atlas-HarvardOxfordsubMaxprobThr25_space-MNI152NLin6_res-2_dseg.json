@@ -6,7 +6,7 @@
         "Hierarchical": "no",
         "Symmetrical": "no",
         "Number of Regions": "21",
-        "Average Volume Per Region": "41028.59090909091",
+        "Average Volume Per Region": "9764.380952380952",
         "Year Generated": "2020",
         "Generation Method": "",
         "Source": "https://scalablebrainatlas.incf.org/human/HOA06"
@@ -14,12 +14,7 @@
     "rois": {
         "0": {
             "label": "background",
-            "center": [
-                -0.13311218214295195,
-                -18.253597529681954,
-                18.764359297094742
-            ],
-            "size": 697577
+            "center": null
         },
         "1": {
             "label": "Right_Cerebral_White_Matter",

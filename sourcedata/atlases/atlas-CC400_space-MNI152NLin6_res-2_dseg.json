@@ -6,7 +6,7 @@
         "Hierarchical": "",
         "Symmetrical": "",
         "Number of Regions": "392",
-        "Average Volume Per Region": "733.3969465648855",
+        "Average Volume Per Region": "110.74744897959184",
         "Year Generated": "2011",
         "Generation Method": "",
         "Source": "https://ccraddock.github.io/cluster_roi/atlases.html"
@@ -14,12 +14,7 @@
     "rois": {
         "0": {
             "label": "background",
-            "center": [
-                -0.3013468082238262,
-                -17.045837231057064,
-                18.865878815854515
-            ],
-            "size": 244812
+            "center": null
         },
         "1": {
             "label": "region00001",
