@@ -1,4 +1,5 @@
-ROI Label	ROI Name	R	A	S
+index	label	R	A	S
+0	background			
 1	17Networks_LH_VisCent_Striate_1	-4	-90	-12
 2	17Networks_LH_VisCent_Striate_2	-10	-98	-12
 3	17Networks_LH_VisCent_Striate_3	-8	-94	-2

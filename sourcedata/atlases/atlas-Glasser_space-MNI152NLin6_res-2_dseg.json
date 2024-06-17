@@ -13,7 +13,7 @@
     },
     "rois": {
         "0": {
-            "label": "empty",
+            "label": "background",
             "center": null
         },
         "1": {

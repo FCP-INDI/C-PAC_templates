@@ -1,4 +1,5 @@
-ROI Label	ROI Name	R	A	S
+index	label	R	A	S
+0	background			
 1	17Networks_LH_VisCent_ExStr_1	-34	-64	-16
 2	17Networks_LH_VisCent_ExStr_2	-22	-72	-10
 3	17Networks_LH_VisCent_ExStr_3	-22	-84	-16
