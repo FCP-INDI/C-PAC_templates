@@ -7,7 +7,7 @@
         "Number of Regions": "116",
         "Average Volume Per Region": "1598.3189655172414",
         "Year Generated": "2002",
-        "Generation Method": "Delineated with respect to anatomical landmarks (following sulci course in brain)",
+        "Generation Method": "Delineated with respect to anatomical landmarks (following sulci course in brain).",
         "Source": "https://www.ncbi.nlm.nih.gov/pubmed/11771995"
     },
     "rois": {
@@ -16,7 +16,7 @@
             "center": null
         },
         "1": {
-            "label": "L_Precentral_gyrus",
+            "label": "L_Precentral",
             "center": [
                 -40.9282269503546,
                 -6.960000000000008,
@@ -25,7 +25,7 @@
             "size": 3526
         },
         "2": {
-            "label": "R_Precentral_gyrus",
+            "label": "R_Precentral",
             "center": [
                 39.100857734398105,
                 -9.549837326234837,
@@ -34,7 +34,7 @@
             "size": 3381
         },
         "3": {
-            "label": "L_Superior_frontal_gyrus_dorsolateral",
+            "label": "L_Frontal_Sup",
             "center": [
                 -20.79777158774374,
                 33.417827298050156,
@@ -43,7 +43,7 @@
             "size": 3599
         },
         "4": {
-            "label": "R_Superior_frontal_gyrus_dorsolateral",
+            "label": "R_Frontal_Sup",
             "center": [
                 19.604834731129756,
                 29.909718796250615,
@@ -52,7 +52,7 @@
             "size": 4056
         },
         "5": {
-            "label": "L_Middle_frontal_gyrus",
+            "label": "L_Frontal_Sup_Orb",
             "center": [
                 -18.824506749740394,
                 45.919003115264786,
@@ -61,7 +61,7 @@
             "size": 963
         },
         "6": {
-            "label": "R_Middle_frontal_gyrus",
+            "label": "R_Frontal_Sup_Orb",
             "center": [
                 16.17853560682046,
                 46.61785356068205,
@@ -70,7 +70,7 @@
             "size": 997
         },
         "7": {
-            "label": "L_Inferior_frontal_gyrus_triangular_part",
+            "label": "L_Frontal_Mid",
             "center": [
                 -35.76013166015224,
                 31.49763423163958,
@@ -79,7 +79,7 @@
             "size": 4863
         },
         "8": {
-            "label": "R_Inferior_frontal_gyrus_triangular_part",
+            "label": "R_Frontal_Mid",
             "center": [
                 35.39502058419917,
                 31.771417369143307,
@@ -88,7 +88,7 @@
             "size": 5104
         },
         "9": {
-            "label": "L_Inferior_frontal_gyrus_opercular_part",
+            "label": "L_Frontal_Mid_Orb",
             "center": [
                 -32.88513513513513,
                 49.1418918918919,
@@ -97,7 +97,7 @@
             "size": 888
         },
         "10": {
-            "label": "R_Inferior_frontal_gyrus_opercular_part",
+            "label": "R_Frontal_Mid_Orb",
             "center": [
                 30.894581280788174,
                 51.27487684729064,
@@ -106,7 +106,7 @@
             "size": 1015
         },
         "11": {
-            "label": "L_Inferior_frontal_gyrus_orbital_part",
+            "label": "L_Frontal_Inf_Oper",
             "center": [
                 -50.79576107899808,
                 11.49132947976878,
@@ -115,7 +115,7 @@
             "size": 1038
         },
         "12": {
-            "label": "R_Inferior_frontal_gyrus_orbital_part",
+            "label": "R_Frontal_Inf_Oper",
             "center": [
                 47.92709077912795,
                 13.675482487491053,
@@ -124,7 +124,7 @@
             "size": 1399
         },
         "13": {
-            "label": "L_Rolandic_operculum",
+            "label": "L_Frontal_Inf_Tri",
             "center": [
                 -47.890075128509295,
                 28.666666666666657,
@@ -133,7 +133,7 @@
             "size": 2529
         },
         "14": {
-            "label": "R_Rolandic_operculum",
+            "label": "R_Frontal_Inf_Tri",
             "center": [
                 48.06136680613668,
                 28.901906090190607,
@@ -142,7 +142,7 @@
             "size": 2151
         },
         "15": {
-            "label": "L_Supplementary_motor_area_(Frontal_lobe_Medial_Surface)",
+            "label": "L_Frontal_Inf_Orb",
             "center": [
                 -38.24023668639052,
                 29.49230769230769,
@@ -151,7 +151,7 @@
             "size": 1690
         },
         "16": {
-            "label": "R_Supplementary_motor_area_(Frontal_lobe_Medial_Surface)",
+            "label": "R_Frontal_Inf_Orb",
             "center": [
                 38.9103690685413,
                 30.99472759226714,
@@ -160,7 +160,7 @@
             "size": 1707
         },
         "17": {
-            "label": "L_Olfactory_cortex",
+            "label": "L_Rolandic_Oper",
             "center": [
                 -49.37854251012146,
                 -9.751012145748987,
@@ -169,7 +169,7 @@
             "size": 990
         },
         "18": {
-            "label": "R_Olfactory_cortex",
+            "label": "R_Rolandic_Oper",
             "center": [
                 50.381667918858,
                 -7.537190082644628,
@@ -178,7 +178,7 @@
             "size": 1331
         },
         "19": {
-            "label": "L_Superior_frontal_gyrus_medial",
+            "label": "L_Supp_Motor_Area",
             "center": [
                 -7.690731252911036,
                 3.5500698649278206,
@@ -187,7 +187,7 @@
             "size": 2147
         },
         "20": {
-            "label": "R_Superior_frontal_gyrus_medial",
+            "label": "R_Supp_Motor_Area",
             "center": [
                 6.246309574019406,
                 -1.0932096161956935,
@@ -196,7 +196,7 @@
             "size": 2371
         },
         "21": {
-            "label": "L_Superior_frontal_gyrus_medial_orbital",
+            "label": "L_Olfactory",
             "center": [
                 -10.26428571428572,
                 13.8642857142857,
@@ -205,7 +205,7 @@
             "size": 280
         },
         "22": {
-            "label": "R_Superior_frontal_gyrus_medial_orbital",
+            "label": "R_Olfactory",
             "center": [
                 8.124567474048447,
                 14.664359861591691,
@@ -214,7 +214,7 @@
             "size": 289
         },
         "23": {
-            "label": "L_Gyrus_rectus",
+            "label": "L_Frontal_Sup_Medial",
             "center": [
                 -7.1737967914438485,
                 47.887032085561486,
@@ -223,7 +223,7 @@
             "size": 2992
         },
         "24": {
-            "label": "R_Gyrus_rectus",
+            "label": "R_Frontal_Sup_Medial",
             "center": [
                 6.750702905342081,
                 49.52858481724462,
@@ -232,7 +232,7 @@
             "size": 2134
         },
         "25": {
-            "label": "L_Superior_frontal_gyrus_orbital_part",
+            "label": "L_Frontal_Med_Orb",
             "center": [
                 -7.438108484005568,
                 52.51738525730181,
@@ -241,7 +241,7 @@
             "size": 719
         },
         "26": {
-            "label": "R_Superior_frontal_gyrus_orbital_part",
+            "label": "R_Frontal_Med_Orb",
             "center": [
                 5.834112149532714,
                 50.406542056074755,
@@ -250,7 +250,7 @@
             "size": 856
         },
         "27": {
-            "label": "L_Middle_frontal_gyrus_orbital_part",
+            "label": "L_Rectus",
             "center": [
                 -7.441314553990608,
                 35.706572769953056,
@@ -259,7 +259,7 @@
             "size": 852
         },
         "28": {
-            "label": "R_Middle_frontal_gyrus_orbital_part",
+            "label": "R_Rectus",
             "center": [
                 6.002684563758393,
                 34.451006711409406,
@@ -268,7 +268,7 @@
             "size": 745
         },
         "29": {
-            "label": "L_Orbitofrontal_cortex_posterior",
+            "label": "L_Insula",
             "center": [
                 -37.410118406889126,
                 5.440258342303537,
@@ -277,7 +277,7 @@
             "size": 1858
         },
         "30": {
-            "label": "R_Orbitofrontal_cortex_posterior",
+            "label": "R_Insula",
             "center": [
                 36.721311475409834,
                 5.027699265121555,
@@ -286,7 +286,7 @@
             "size": 1770
         },
         "31": {
-            "label": "L_Orbitofrontal_cortex_lateral",
+            "label": "L_Cingulum_Ant",
             "center": [
                 -6.357398141529671,
                 34.1829878484632,
@@ -295,7 +295,7 @@
             "size": 1400
         },
         "32": {
-            "label": "R_Orbitofrontal_cortex_lateral",
+            "label": "R_Cingulum_Ant",
             "center": [
                 6.117288651942118,
                 35.72277227722773,
@@ -304,7 +304,7 @@
             "size": 1313
         },
         "33": {
-            "label": "L_Insula",
+            "label": "L_Cingulum_Mid",
             "center": [
                 -7.882534775888715,
                 -16.1009788768676,
@@ -313,7 +313,7 @@
             "size": 1941
         },
         "34": {
-            "label": "R_Insula",
+            "label": "R_Cingulum_Mid",
             "center": [
                 5.664094416704501,
                 -10.197004085338165,
@@ -322,7 +322,7 @@
             "size": 2203
         },
         "35": {
-            "label": "L_Anterior_cingulate_and_paracingulate_gyri",
+            "label": "L_Cingulum_Post",
             "center": [
                 -7.205183585313179,
                 -44.172786177105834,
@@ -331,7 +331,7 @@
             "size": 463
         },
         "36": {
-            "label": "R_Anterior_cingulate_and_paracingulate_gyri",
+            "label": "R_Cingulum_Post",
             "center": [
                 5.141141141141134,
                 -43.09309309309309,
@@ -340,7 +340,7 @@
             "size": 335
         },
         "37": {
-            "label": "L_Median_cingulate_and_paracingulate_gyri",
+            "label": "L_Hippocampus",
             "center": [
                 -27.25536480686695,
                 -21.963519313304715,
@@ -349,7 +349,7 @@
             "size": 932
         },
         "38": {
-            "label": "R_Median_cingulate_and_paracingulate_gyri",
+            "label": "R_Hippocampus",
             "center": [
                 26.945031712473572,
                 -20.991543340380545,
@@ -358,7 +358,7 @@
             "size": 946
         },
         "39": {
-            "label": "L_Posterior_cingulate_gyrus",
+            "label": "L_ParaHippocampal",
             "center": [
                 -23.492842535787318,
                 -17.29243353783231,
@@ -367,7 +367,7 @@
             "size": 978
         },
         "40": {
-            "label": "R_Posterior_cingulate_gyrus",
+            "label": "R_ParaHippocampal",
             "center": [
                 23.148409893992934,
                 -16.300353356890454,
@@ -376,7 +376,7 @@
             "size": 1132
         },
         "41": {
-            "label": "L_Hippocampus",
+            "label": "L_Amygdala",
             "center": [
                 -25.509090909090915,
                 -1.9454545454545382,
@@ -385,7 +385,7 @@
             "size": 220
         },
         "42": {
-            "label": "R_Hippocampus",
+            "label": "R_Amygdala",
             "center": [
                 25.05645161290323,
                 -0.5725806451612954,
@@ -394,7 +394,7 @@
             "size": 248
         },
         "43": {
-            "label": "L_Parahippocampal_gyrus",
+            "label": "L_Calcarine",
             "center": [
                 -9.482728077945083,
                 -79.82108060230293,
@@ -403,7 +403,7 @@
             "size": 2258
         },
         "44": {
-            "label": "R_Parahippocampal_gyrus",
+            "label": "R_Calcarine",
             "center": [
                 13.709833422890924,
                 -74.44922084900591,
@@ -412,7 +412,7 @@
             "size": 1861
         },
         "45": {
-            "label": "L_Amygdala",
+            "label": "L_Cuneus",
             "center": [
                 -8.264299802761343,
                 -81.36226166995398,
@@ -421,7 +421,7 @@
             "size": 1526
         },
         "46": {
-            "label": "R_Amygdala",
+            "label": "R_Cuneus",
             "center": [
                 11.122881355932208,
                 -80.70621468926554,
@@ -430,7 +430,7 @@
             "size": 1424
         },
         "47": {
-            "label": "L_Calcarine_fissure_and_surrounding_cortex",
+            "label": "L_Lingual",
             "center": [
                 -16.85823389021479,
                 -68.86491646778043,
@@ -439,7 +439,7 @@
             "size": 2095
         },
         "48": {
-            "label": "R_Calcarine_fissure_and_surrounding_cortex",
+            "label": "R_Lingual",
             "center": [
                 14.077391304347827,
                 -68.14173913043479,
@@ -448,7 +448,7 @@
             "size": 2300
         },
         "49": {
-            "label": "L_Cuneus",
+            "label": "L_Occipital_Sup",
             "center": [
                 -18.756954612005856,
                 -85.61054172767203,
@@ -457,7 +457,7 @@
             "size": 1366
         },
         "50": {
-            "label": "R_Cuneus",
+            "label": "R_Occipital_Sup",
             "center": [
                 21.963172804532576,
                 -82.20396600566572,
@@ -466,7 +466,7 @@
             "size": 1413
         },
         "51": {
-            "label": "L_Lingual_gyrus",
+            "label": "L_Occipital_Mid",
             "center": [
                 -34.639288997854734,
                 -81.9938706711615,
@@ -475,7 +475,7 @@
             "size": 3270
         },
         "52": {
-            "label": "R_Lingual_gyrus",
+            "label": "R_Occipital_Mid",
             "center": [
                 35.10644391408115,
                 -81.00143198090691,
@@ -484,7 +484,7 @@
             "size": 2098
         },
         "53": {
-            "label": "L_Superior_occipital_gyrus",
+            "label": "L_Occipital_Inf",
             "center": [
                 -38.48246546227418,
                 -79.56854410201913,
@@ -493,7 +493,7 @@
             "size": 941
         },
         "54": {
-            "label": "R_Superior_occipital_gyrus",
+            "label": "R_Occipital_Inf",
             "center": [
                 35.87057633973711,
                 -83.19110212335693,
@@ -502,7 +502,7 @@
             "size": 989
         },
         "55": {
-            "label": "L_Middle_occipital_gyrus",
+            "label": "L_Fusiform",
             "center": [
                 -33.39514731369151,
                 -41.36221837088388,
@@ -511,7 +511,7 @@
             "size": 2310
         },
         "56": {
-            "label": "R_Middle_occipital_gyrus",
+            "label": "R_Fusiform",
             "center": [
                 31.6637519872814,
                 -40.16057233704292,
@@ -520,7 +520,7 @@
             "size": 2518
         },
         "57": {
-            "label": "L_Inferior_occipital_gyrus",
+            "label": "L_Postcentral",
             "center": [
                 -44.90441932168551,
                 -23.7754367934224,
@@ -529,7 +529,7 @@
             "size": 3892
         },
         "58": {
-            "label": "R_Inferior_occipital_gyrus",
+            "label": "R_Postcentral",
             "center": [
                 39.15825268114047,
                 -26.772691603452785,
@@ -538,7 +538,7 @@
             "size": 3823
         },
         "59": {
-            "label": "L_Fusiform_gyrus",
+            "label": "L_Parietal_Sup",
             "center": [
                 -25.719961240310084,
                 -60.799418604651166,
@@ -547,7 +547,7 @@
             "size": 2065
         },
         "60": {
-            "label": "R_Fusiform_gyrus",
+            "label": "R_Parietal_Sup",
             "center": [
                 23.838811346240433,
                 -60.436740207113914,
@@ -556,7 +556,7 @@
             "size": 2222
         },
         "61": {
-            "label": "L_Postcentral_gyrus",
+            "label": "L_Parietal_Inf",
             "center": [
                 -45.10666121781773,
                 -47.01920719248059,
@@ -565,7 +565,7 @@
             "size": 2447
         },
         "62": {
-            "label": "R_Postcentral_gyrus",
+            "label": "R_Parietal_Inf",
             "center": [
                 44.291449814126395,
                 -47.58810408921933,
@@ -574,7 +574,7 @@
             "size": 1345
         },
         "63": {
-            "label": "L_Superior_parietal_gyrus",
+            "label": "L_SupraMarginal",
             "center": [
                 -58.14649681528664,
                 -34.93630573248407,
@@ -583,7 +583,7 @@
             "size": 1256
         },
         "64": {
-            "label": "R_Superior_parietal_gyrus",
+            "label": "R_SupraMarginal",
             "center": [
                 55.27116066903193,
                 -32.82209832742018,
@@ -592,7 +592,7 @@
             "size": 1974
         },
         "65": {
-            "label": "L_Inferior_parietial_but_supramarginal_and_angular_gyri",
+            "label": "L_Angular",
             "center": [
                 -46.42491467576792,
                 -62.08532423208191,
@@ -601,7 +601,7 @@
             "size": 1173
         },
         "66": {
-            "label": "R_Inferior_parietial_but_supramarginal_and_angular_gyri",
+            "label": "R_Angular",
             "center": [
                 43.22831050228311,
                 -61.23858447488584,
@@ -610,7 +610,7 @@
             "size": 1752
         },
         "67": {
-            "label": "L_Supramarginal_gyrus",
+            "label": "L_Precuneus",
             "center": [
                 -9.590702947845813,
                 -57.324829931972786,
@@ -619,7 +619,7 @@
             "size": 3528
         },
         "68": {
-            "label": "R_Suparmarginal_gyrus",
+            "label": "R_Precuneus",
             "center": [
                 7.684436274509807,
                 -57.31188725490196,
@@ -628,7 +628,7 @@
             "size": 3265
         },
         "69": {
-            "label": "L_Angular_gyrus",
+            "label": "L_Paracentral_Lobule",
             "center": [
                 -9.974796145292814,
                 -26.650852483320975,
@@ -637,7 +637,7 @@
             "size": 1349
         },
         "70": {
-            "label": "R_Angular_gyrus",
+            "label": "R_Paracentral_Lobule",
             "center": [
                 5.126794258373209,
                 -32.942583732057415,
@@ -646,7 +646,7 @@
             "size": 836
         },
         "71": {
-            "label": "L_Precuneus",
+            "label": "L_Caudate",
             "center": [
                 -13.767151767151773,
                 9.723492723492711,
@@ -655,7 +655,7 @@
             "size": 962
         },
         "72": {
-            "label": "R_Precuneus",
+            "label": "R_Caudate",
             "center": [
                 12.494969818913475,
                 10.776659959758547,
@@ -664,7 +664,7 @@
             "size": 994
         },
         "73": {
-            "label": "L_Paracentral_lobule",
+            "label": "L_Putamen",
             "center": [
                 -26.20812685827552,
                 2.600594648166492,
@@ -673,7 +673,7 @@
             "size": 1009
         },
         "74": {
-            "label": "R_Paracentral_lobule",
+            "label": "R_Putamen",
             "center": [
                 25.484962406015043,
                 3.6785714285714164,
@@ -682,7 +682,7 @@
             "size": 1064
         },
         "75": {
-            "label": "L_Caudate_nucleus",
+            "label": "L_Pallidum",
             "center": [
                 -20.061433447098977,
                 -1.3583617747440258,
@@ -691,7 +691,7 @@
             "size": 293
         },
         "76": {
-            "label": "R_Caudate_nucleus",
+            "label": "R_Pallidum",
             "center": [
                 18.921428571428578,
                 -1.0571428571428498,
@@ -700,7 +700,7 @@
             "size": 280
         },
         "77": {
-            "label": "L_Lenticular_nucleus_putamen",
+            "label": "L_Thalamus",
             "center": [
                 -13.198181818181823,
                 -18.843636363636364,
@@ -709,7 +709,7 @@
             "size": 1100
         },
         "78": {
-            "label": "R_Lenticular_nucleus_putamen",
+            "label": "R_Thalamus",
             "center": [
                 10.703878902554393,
                 -18.768211920529808,
@@ -718,7 +718,7 @@
             "size": 1057
         },
         "79": {
-            "label": "L_Lenticular_nucleus_pallidum",
+            "label": "L_Heschl",
             "center": [
                 -44.346666666666664,
                 -20.03555555555556,
@@ -727,7 +727,7 @@
             "size": 225
         },
         "80": {
-            "label": "R_Lenticular_nucleus_pallidum",
+            "label": "R_Heschl",
             "center": [
                 43.70040485829959,
                 -18.315789473684205,
@@ -736,7 +736,7 @@
             "size": 249
         },
         "81": {
-            "label": "L_Thalamus",
+            "label": "L_Temporal_Sup",
             "center": [
                 -55.4355400696864,
                 -22.00958188153311,
@@ -745,7 +745,7 @@
             "size": 2296
         },
         "82": {
-            "label": "R_Thalamus",
+            "label": "R_Temporal_Sup",
             "center": [
                 55.83253740846864,
                 -23.01050620821394,
@@ -754,7 +754,7 @@
             "size": 3141
         },
         "83": {
-            "label": "L_Heschl_gyrus",
+            "label": "L_Temporal_Pole_Sup",
             "center": [
                 -42.15408560311283,
                 13.867704280155635,
@@ -763,7 +763,7 @@
             "size": 1285
         },
         "84": {
-            "label": "R_Heschl_gyrus",
+            "label": "R_Temporal_Pole_Sup",
             "center": [
                 45.937219730941706,
                 13.45739910313901,
@@ -772,7 +772,7 @@
             "size": 1338
         },
         "85": {
-            "label": "L_Superior_temporal_gyrus",
+            "label": "L_Temporal_Mid",
             "center": [
                 -57.86887899635775,
                 -34.98421691622825,
@@ -781,7 +781,7 @@
             "size": 4942
         },
         "86": {
-            "label": "R_Superior_temporal_gyrus",
+            "label": "R_Temporal_Mid",
             "center": [
                 55.15990020412792,
                 -38.56566114765252,
@@ -790,7 +790,7 @@
             "size": 4409
         },
         "87": {
-            "label": "L_Temporal_pole_superior_temporal_gyrus",
+            "label": "L_Temporal_Pole_Mid",
             "center": [
                 -38.602666666666664,
                 13.354666666666674,
@@ -799,7 +799,7 @@
             "size": 755
         },
         "88": {
-            "label": "R_Temporal_pole_superior_temporal_gyrus",
+            "label": "R_Temporal_Pole_Mid",
             "center": [
                 41.98141891891892,
                 13.275337837837839,
@@ -808,7 +808,7 @@
             "size": 1187
         },
         "89": {
-            "label": "L_Middle_temporal_gyrus",
+            "label": "L_Temporal_Inf",
             "center": [
                 -52.036249999999995,
                 -29.291875000000005,
@@ -817,7 +817,7 @@
             "size": 3200
         },
         "90": {
-            "label": "R_Middle_temporal_gyrus",
+            "label": "R_Temporal_Inf",
             "center": [
                 51.37158931082982,
                 -32.134458509142064,
@@ -826,7 +826,7 @@
             "size": 3557
         },
         "91": {
-            "label": "L_Temporal_pole_middle_temporal_gyrus",
+            "label": "L_Cerebelum_Crus1",
             "center": [
                 -37.38532462543219,
                 -67.94314252785247,
@@ -835,7 +835,7 @@
             "size": 2603
         },
         "92": {
-            "label": "R_Temporal_pole_middle_temporal_gyrus",
+            "label": "R_Cerebelum_Crus1",
             "center": [
                 36.21450151057402,
                 -68.37160120845921,
@@ -844,7 +844,7 @@
             "size": 2648
         },
         "93": {
-            "label": "L_Inferior_temporal_gyrus",
+            "label": "L_Cerebelum_Crus2",
             "center": [
                 -29.768743400211193,
                 -74.57972544878564,
@@ -853,7 +853,7 @@
             "size": 1894
         },
         "94": {
-            "label": "R_Inferior_temporal_gyrus",
+            "label": "R_Cerebelum_Crus2",
             "center": [
                 30.673594709494566,
                 -70.39678790741615,
@@ -862,7 +862,7 @@
             "size": 2117
         },
         "95": {
-            "label": "L_Cerebelum_Crus1",
+            "label": "L_Cerebelum_3",
             "center": [
                 -10.117647058823536,
                 -38.367647058823536,
@@ -871,7 +871,7 @@
             "size": 136
         },
         "96": {
-            "label": "R_Cerebelum_Crus1",
+            "label": "R_Cerebelum_3",
             "center": [
                 11.062801932367151,
                 -35.710144927536234,
@@ -880,7 +880,7 @@
             "size": 207
         },
         "97": {
-            "label": "L_Cerebelum_Crus2",
+            "label": "L_Cerebelum_4_5",
             "center": [
                 -16.343111111111114,
                 -44.66311111111111,
@@ -889,7 +889,7 @@
             "size": 1125
         },
         "98": {
-            "label": "R_Cerebelum_Crus2",
+            "label": "R_Cerebelum_4_5",
             "center": [
                 15.888501742160287,
                 -44.16492450638792,
@@ -898,7 +898,7 @@
             "size": 861
         },
         "99": {
-            "label": "L_Cerebelum_3",
+            "label": "L_Cerebelum_6",
             "center": [
                 -24.525383707201883,
                 -60.25855962219599,
@@ -907,7 +907,7 @@
             "size": 1694
         },
         "100": {
-            "label": "R_Cerebelum_3",
+            "label": "R_Cerebelum_6",
             "center": [
                 23.429526462395543,
                 -59.53760445682451,
@@ -916,7 +916,7 @@
             "size": 1795
         },
         "101": {
-            "label": "L_Cerebelum_4_5",
+            "label": "L_Cerebelum_7b",
             "center": [
                 -33.58561643835617,
                 -61.078767123287676,
@@ -925,7 +925,7 @@
             "size": 585
         },
         "102": {
-            "label": "R_Cerebelum_4_5",
+            "label": "R_Cerebelum_7b",
             "center": [
                 31.928838951310865,
                 -64.40823970037454,
@@ -934,7 +934,7 @@
             "size": 534
         },
         "103": {
-            "label": "L_Cerebelum_6",
+            "label": "L_Cerebelum_8",
             "center": [
                 -27.029146793852675,
                 -55.77106518282989,
@@ -943,7 +943,7 @@
             "size": 1887
         },
         "104": {
-            "label": "R_Cerebelum_6",
+            "label": "R_Cerebelum_8",
             "center": [
                 23.77296360485269,
                 -57.63084922010398,
@@ -952,7 +952,7 @@
             "size": 2308
         },
         "105": {
-            "label": "L_Cerebelum_7b",
+            "label": "L_Cerebelum_9",
             "center": [
                 -12.25316455696202,
                 -50.18872266973533,
@@ -961,7 +961,7 @@
             "size": 869
         },
         "106": {
-            "label": "R_Cerebelum_7b",
+            "label": "R_Cerebelum_9",
             "center": [
                 8.190358467243513,
                 -50.75154511742892,
@@ -970,7 +970,7 @@
             "size": 809
         },
         "107": {
-            "label": "L_Cerebelum_8",
+            "label": "L_Cerebelum_10",
             "center": [
                 -23.79166666666667,
                 -35.0,
@@ -979,7 +979,7 @@
             "size": 144
         },
         "108": {
-            "label": "R_Cerebelum_8",
+            "label": "R_Cerebelum_10",
             "center": [
                 24.80503144654088,
                 -35.01886792452831,
@@ -988,7 +988,7 @@
             "size": 159
         },
         "109": {
-            "label": "L_Cerebelum_9",
+            "label": "Vermis_1_2",
             "center": [
                 -0.49056603773584584,
                 -40.11320754716981,
@@ -997,7 +997,7 @@
             "size": 53
         },
         "110": {
-            "label": "R_Cerebelum_9",
+            "label": "Vermis_3",
             "center": [
                 0.05263157894736992,
                 -41.28947368421052,
@@ -1006,7 +1006,7 @@
             "size": 228
         },
         "111": {
-            "label": "L_Cerebelum_10",
+            "label": "Vermis_4_5",
             "center": [
                 -0.16541353383458102,
                 -53.59398496240601,
@@ -1015,7 +1015,7 @@
             "size": 665
         },
         "112": {
-            "label": "R_Cerebelum_10",
+            "label": "Vermis_6",
             "center": [
                 -0.2318059299191333,
                 -68.35040431266846,
@@ -1024,7 +1024,7 @@
             "size": 371
         },
         "113": {
-            "label": "Vermis_1_2",
+            "label": "Vermis_7",
             "center": [
                 -0.1340206185567041,
                 -73.19587628865979,
@@ -1033,7 +1033,7 @@
             "size": 194
         },
         "114": {
-            "label": "Vermis_4",
+            "label": "Vermis_8",
             "center": [
                 -0.18930041152263755,
                 -65.65432098765433,
@@ -1042,7 +1042,7 @@
             "size": 243
         },
         "115": {
-            "label": "Vermis_4_5",
+            "label": "Vermis_9",
             "center": [
                 -0.3908045977011483,
                 -56.172413793103445,
@@ -1051,33 +1051,13 @@
             "size": 174
         },
         "116": {
-            "label": "Vermis_6",
+            "label": "Vermis_10",
             "center": [
                 -0.8571428571428612,
                 -47.125,
                 -34.875
             ],
             "size": 112
-        },
-        "117": {
-            "label": "Vermis_7",
-            "center": null,
-            "size": null
-        },
-        "118": {
-            "label": "Vermis_8",
-            "center": null,
-            "size": null
-        },
-        "119": {
-            "label": "Vermis_9",
-            "center": null,
-            "size": null
-        },
-        "120": {
-            "label": "Vermis_10",
-            "center": null,
-            "size": null
         }
     }
 }
