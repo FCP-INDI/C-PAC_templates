@@ -3,6 +3,10 @@ name: Build cpac_templates Docker image
 on:
   push:
 
+permissions:
+  contents: read
+  packages: write
+
 jobs:
   Ubuntu:
     name: Build Docker image for C-PAC
